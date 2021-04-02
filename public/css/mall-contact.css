@@ -1,0 +1,28 @@
+h1 {
+    margin: 5px 10%;
+    font-weight: normal;
+}
+
+form {
+    margin: auto;
+    padding: 3% 17%;
+}
+
+.field, .big-field {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 6px;
+}
+
+.field {
+    height: 40px;
+}
+
+.big-field {
+    height: 90px;
+}
+
+form p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}

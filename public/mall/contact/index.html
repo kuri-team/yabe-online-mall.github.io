@@ -59,8 +59,8 @@
 
     <div class="content-body">
         <form action="" method="" enctype="">
-            <p class="form-field">Contact Purpose*</p>
-            <select name="contact_purpose" required>
+            <p>Contact Purpose*</p>
+            <select name="contact_purpose" class="field" required>
                 <option value="" selected>Select an option</option>
                 <option value="">Customer Order</option>
                 <option value="">Pricing</option>
@@ -69,27 +69,23 @@
                 <option value="">Other</option>
             </select>
 
-            <label for="fname">First Name*</label>
-            <input type="text" name="fname" class="field" required>
+            <p>First Name*</p>
+            <input type="text" name="fname" class="name-field" placeholder="This field is required" required>
 
-            <label class="title" for="lname">Last Name*</label>
-            <input type="text" name="lname" class="field" required>
-            <br>
+            <p>Last Name*</p>
+            <input type="text" name="lname" class="name-field" placeholder="This field is required" required>
 
-            <label class="title" for="email">Email*</label>
-            <input type="email" name="email" class="field" placeholder="abc@gmail.com" required>
-            <br>
+            <p>Email*</p>
+            <input type="email" name="email" class="field" placeholder="This field is required" required>
 
-            <label class="title" for="phone">Phone*</label>
-            <input type="text" name="phone" class="field" placeholder="+84 180 180 180" required>
-            <br>
+            <p>Phone*</p>
+            <input type="text" name="phone" class="field" placeholder="This field is required" required>
 
-            <label class="title" for="method">Preferred Contact Method*</label>
+            <p>Preferred Contact Method*</p>
             <input type="radio" id="email" name="contact_method" value="email" checked><label for="email">Email</label>
             <input type="radio" id="phone" name="contact_method" value="phone"><label for="phone">Phone</label>
-            <br>
 
-            <label class="title" for="day">Contact Days</label>
+            <p>Contact Days</p>
             <input type="checkbox" id="mon" name="contact_day[]" value="monday"><label for="mon">Monday</label>
             <input type="checkbox" id="tues" name="contact_day[]" value="tuesday"><label for="tues">Tuesday</label>
             <input type="checkbox" id="wed" name="contact_day[]" value="wednesday"><label for="wed">Wednesday</label>
@@ -97,11 +93,9 @@
             <input type="checkbox" id="fri" name="contact_day[]" value="friday"><label for="fri">Friday</label>
             <input type="checkbox" id="sat" name="contact_day[]" value="saturday"><label for="sat">Saturday</label>
             <input type="checkbox" id="sun" name="contact_day[]" value="sunday"><label for="sun">Sunday</label>
-            <br>
 
-            <label for="message" class="title">Message</label>
-            <textarea name="message" id="message" class="field" cols="50" rows="7"></textarea>
-            <br>
+            <p>Message</p>
+            <textarea name="message" id="message" class="big-field" cols="50" rows="7"></textarea>
             
             <input type="reset" name="reset" value="Clear">
             <input type="submit" name="submit" value="Send">
