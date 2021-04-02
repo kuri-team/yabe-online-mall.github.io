@@ -439,10 +439,16 @@ footer {
     margin-right: 50px;
 }
 
+/* Hide footer logo on smaller screens to conserve space */
+@media only screen and (max-width: 1080px) {
+    #footer-logo {
+        display: none;
+    }
+}
+
 .footer-menu-item {
     color: #fffcf2;
     width: 150px;
-    height: 150px;
     padding: 0 50px 70px 50px;
 }
 
@@ -478,4 +484,11 @@ footer {
     color: #fff;
     background: #252422;
     text-align: center;
+}
+
+@media only screen and (max-width: 795px) {
+    .footer-menu-item {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
 }
