@@ -13,63 +13,15 @@
 }
 
 .mall-home-section {
-    width: 75%;
+    width: 80%;
     margin: 30px auto;
 }
 
 .mall-home-section > h1 {
-    margin-left: 16px;
+    margin-left: 24px;
 }
 
 .mall-home-section-heading-link {
     margin-left: 12px;
-    font-size: 9pt;
-}
-
-.product-card {
-    background: #ccc5b9;
-    margin: 5px 5px;
-}
-
-.product-card a {
-    color: #252422;
-    text-decoration: none;
-}
-
-.product-card a:hover {
-    text-decoration: underline;
-}
-
-.product-card-details {
-    padding: 15px;
-}
-
-.product-card-title {
-    font-family: 'Roboto', 'Arial', sans-serif;
-    font-size: 15pt;
-    display: block;
-}
-
-.product-card-shop {
-    margin-bottom: 20px;
-    font-size: 9pt;
-    display: block;
-}
-
-.product-card-price {
-    display: inline;
-}
-
-.product-card-price-crossed-out {
-    display: inline;
-    color: #fffcf2;
-    text-decoration: line-through;
-}
-
-.product-card-sale-card {
-    float: right;
-    background: #fffcf2;
-    border: 1px solid #252422;
-    padding: 2px 5px;
     font-size: 9pt;
 }

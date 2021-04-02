@@ -155,19 +155,18 @@ hr {
     margin-right: 11px;
 }
 
-.nav-cart-bttn { /* Navigation bar cart button */
-    display: inline;
-}
-
 
 /*
     YABE Common navigation bar
 */
-nav {
-    display: flex;
+header {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+}
+
+nav {
+    display: flex;
     justify-content: center;
     background: #252422;
     box-shadow: 0 0 6px 0;
@@ -224,7 +223,7 @@ nav a {
     -o-box-shadow: 0 3px 6px 0;
     -moz-box-shadow: 0 3px 6px 0;
     top: 69px;
-    left: 339px;
+    left: 331px;
     width: 200px;
 }
 
@@ -241,7 +240,7 @@ nav a {
     position: absolute;
     background: #ccc5b9;
     box-shadow: 0 3px 6px 0;
-    top: 0;
+    top: 51px;
     left: 200px;
     width: 200px;
 }
@@ -259,7 +258,7 @@ nav a {
     position: absolute;
     background: #ccc5b9;
     box-shadow: 0 3px 6px 0;
-    top: 50px;
+    top: 102px;
     left: 200px;
     width: 200px;
 }
@@ -353,6 +352,7 @@ nav a {
 }
 
 .nav-cart-bttn {
+    display: inline;
     border: none;
     color: #fff;
     background: #eb5e28;
@@ -408,10 +408,8 @@ nav a {
 }
 
 .content-body {
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 100px;
-    width: 75%;
+    margin: 30px auto 100px;
+    width: 80%;
     background-color: #fff;
 }
 
