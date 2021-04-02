@@ -371,21 +371,31 @@ nav a {
     text-decoration: underline;
 }
 
+.breadcrumb {
+    margin: 30px 6% 50px 6%;
+}
+
 .breadcrumb li {
     display: inline;
 }
 
 .breadcrumb a {
     color: #403D39;
-    padding: 5px;
-    margin: 10px;
+    text-decoration: none;
+    padding: 0 7px;
+    margin-right: 10px;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
 }
 
 .content-body {
-    margin: 100px auto;
-    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    width: 80%;
     background-color: #fff;
-    box-shadow: 0 0 6px 0;
 }
 
 footer {
