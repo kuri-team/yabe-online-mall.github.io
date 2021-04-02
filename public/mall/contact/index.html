@@ -82,17 +82,26 @@
             <input type="text" name="phone" class="field" placeholder="This field is required" required>
 
             <p>Preferred Contact Method*</p>
-            <input type="radio" id="email" name="contact_method" value="email" checked><label for="email">Email</label>
-            <input type="radio" id="phone" name="contact_method" value="phone"><label for="phone">Phone</label>
+            <input type="radio" id="email" name="contact_method" value="email" checked required>
+            <label class="contact-medthod" for="email">Email</label>
+            <input type="radio" id="phone" name="contact_method" value="phone">
+            <label class="contact-medthod" for="phone">Phone</label>
 
             <p>Contact Days</p>
-            <input type="checkbox" id="mon" name="contact_day[]" value="monday"><label for="mon">Monday</label>
-            <input type="checkbox" id="tues" name="contact_day[]" value="tuesday"><label for="tues">Tuesday</label>
-            <input type="checkbox" id="wed" name="contact_day[]" value="wednesday"><label for="wed">Wednesday</label>
-            <input type="checkbox" id="thur" name="contact_day[]" value="thursday"><label for="thur">Thursday</label>
-            <input type="checkbox" id="fri" name="contact_day[]" value="friday"><label for="fri">Friday</label>
-            <input type="checkbox" id="sat" name="contact_day[]" value="saturday"><label for="sat">Saturday</label>
-            <input type="checkbox" id="sun" name="contact_day[]" value="sunday"><label for="sun">Sunday</label>
+            <input type="checkbox" id="mon" name="contact_day[]" value="monday">
+            <label class="contact-day" for="mon">Monday</label>
+            <input type="checkbox" id="tues" name="contact_day[]" value="tuesday">
+            <label class="contact-day" for="tues">Tuesday</label>
+            <input type="checkbox" id="wed" name="contact_day[]" value="wednesday">
+            <label class="contact-day" for="wed">Wednesday</label>
+            <input type="checkbox" id="thur" name="contact_day[]" value="thursday">
+            <label class="contact-day" for="thur">Thursday</label>
+            <input type="checkbox" id="fri" name="contact_day[]" value="friday">
+            <label class="contact-day" for="fri">Friday</label>
+            <input type="checkbox" id="sat" name="contact_day[]" value="saturday">
+            <label class="contact-day" for="sat">Saturday</label>
+            <input type="checkbox" id="sun" name="contact_day[]" value="sunday">
+            <label class="contact-day" for="sun">Sunday</label>
 
             <p>Message</p>
             <textarea name="message" id="message" class="big-field" cols="50" rows="7"></textarea>

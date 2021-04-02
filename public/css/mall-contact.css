@@ -2,16 +2,22 @@ h1 {
     margin: 5px 10%;
     font-weight: normal;
 }
-
+form p, .contact-medthod, .contact-day {
+    font-size: 14px;
+}
 form {
     margin: auto;
     padding: 3% 17%;
 }
 
+form p {
+    margin-bottom: 5px;
+}
+
 .field, .big-field {
     width: 100%;
     box-sizing: border-box;
-    margin-bottom: 6px;
+    margin-bottom: 7px;
 }
 
 .field {
@@ -22,7 +28,13 @@ form {
     height: 90px;
 }
 
-form p {
-    font-size: 14px;
-    margin-bottom: 5px;
+.contact-medthod {
+    margin-right: 60px;
 }
+
+.contact-day {
+    margin-right: 12px;
+}
+
+
+
