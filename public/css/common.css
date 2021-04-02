@@ -131,8 +131,12 @@ i {
     align-items: flex-end;
 }
 
-.flex-item {
+.flex-no-wrap {
+    flex-wrap: nowrap;
+}
 
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 
