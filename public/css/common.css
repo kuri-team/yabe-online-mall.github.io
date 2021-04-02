@@ -10,8 +10,20 @@
 body {
     margin: 0;
     padding: 0;
-    background: #ececec;
+    background: #f7f7f7;
     font-family: 'Noto Sans JP', 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+a {
+    color: #eb5e28;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 i {
@@ -160,6 +172,7 @@ nav {
     -webkit-box-shadow: 0 0 6px 0;
     width: 100%;
     padding: 19px 0;
+    z-index: 99;
 }
 
 nav a {
@@ -207,7 +220,7 @@ nav a {
     -o-box-shadow: 0 3px 6px 0;
     -moz-box-shadow: 0 3px 6px 0;
     top: 69px;
-    left: 331px;
+    left: 339px;
     width: 200px;
 }
 
