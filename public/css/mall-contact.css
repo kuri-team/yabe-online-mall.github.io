@@ -2,16 +2,16 @@ h1 {
     margin: 5px 10%;
     font-weight: normal;
 }
-form p, .contact-medthod, .contact-day {
-    font-size: 14px;
-}
+
 form {
     margin: auto;
     padding: 3% 17%;
+    overflow: auto;
 }
 
-form p {
-    margin-bottom: 5px;
+form p, .contact-medthod, .contact-day {
+    font-size: 14px;
+    margin-bottom: 7px;
 }
 
 .field, .big-field {
@@ -36,5 +36,19 @@ form p {
     margin-right: 12px;
 }
 
+input[type="reset"], input[type="submit"] {
+    width: 120px;
+    height: 45px;
+    margin-top: 4%;
+}
 
+form input[type="reset"] {
+    background-color: #fff;
+    border: 1px #000 solid;
+}
 
+form input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
