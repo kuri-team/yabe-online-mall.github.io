@@ -1,0 +1,27 @@
+#header-hero {
+    width: 100%;
+    height: auto;
+}
+
+#header-hero img {
+    width: inherit;
+    height: inherit;
+}
+
+#mall-main {
+    padding: 30px 0;
+}
+
+.mall-home-section {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.mall-home-section > h1 {
+    margin-left: 24px;
+}
+
+.mall-home-section-heading-link {
+    margin-left: 12px;
+    font-size: 9pt;
+}
