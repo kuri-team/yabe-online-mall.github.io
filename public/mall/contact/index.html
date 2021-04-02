@@ -17,6 +17,8 @@
       <span id="nav-logo"><a href="../"><img class="nav-logo-sprite" alt="Yabe logo" src="../../media/vector/logo-light.svg"></a></span>
       <div id="nav-search-filter">Filter<i class="fas fa-caret-down ml-10"></i>
         <div id="nav-search-filter-level-1">
+          <div class="nav-search-filter-option">All</div>
+          <hr>
           <div class="nav-search-filter-option">Products
             <div id="nav-search-filter-level-2-1">
               <div class="nav-search-filter-option">Category</div>
@@ -58,7 +60,7 @@
     <h1>CONTACT US</h1>
 
     <div class="content-body">
-        <form action="" method="" enctype="">
+        <form action="" method="get" enctype="">
             <p>Contact Purpose*</p>
             <select name="contact_purpose" class="field" required>
                 <option value="" selected>Select an option</option>
@@ -69,11 +71,15 @@
                 <option value="">Other</option>
             </select>
 
-            <p>First Name*</p>
-            <input type="text" name="fname" class="name-field" placeholder="This field is required" required>
+            <div class="name float-left">
+              <p>First Name*</p>
+              <input type="text" name="fname" class="name-field" placeholder="This field is required" required>
+            </div>
 
-            <p>Last Name*</p>
-            <input type="text" name="lname" class="name-field" placeholder="This field is required" required>
+            <div class="name float-right">
+              <p>Last Name*</p>
+              <input type="text" name="lname" class="name-field" placeholder="This field is required" required>
+            </div>
 
             <p>Email*</p>
             <input type="email" name="email" class="field" placeholder="This field is required" required>

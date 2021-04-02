@@ -14,18 +14,28 @@ form p, .contact-medthod, .contact-day {
     margin-bottom: 7px;
 }
 
-.field, .big-field {
+.field, .name-field, .big-field {
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 7px;
 }
 
-.field {
+.field, .name-field {
     height: 40px;
 }
 
 .big-field {
     height: 90px;
+}
+
+.name {
+    display: inline;
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+.name + p {
+    clear: both;
 }
 
 .contact-medthod {
