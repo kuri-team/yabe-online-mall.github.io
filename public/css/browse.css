@@ -1,0 +1,50 @@
+.product-card {
+    padding: 1rem;
+    margin: 30px;
+    position: relative
+}
+
+.product-image {
+    background-color: #555555;
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+.product-image img{
+    transition: transform 0.6s ease
+}
+
+.product-name {
+    text-align: left;
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+
+.product-price {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content {
+    max-width: 900px;
+    margin:0 auto;
+    padding: 0 1 .5em;
+}
+
+.product-info {
+    background-color:#ccc5b9 ;
+}
+
+.category-list {
+    position: relative;
+    font: inherit;
+}
