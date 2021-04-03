@@ -87,3 +87,26 @@ h2 {
     font-family: 'Noto Sans JP', 'Arial', sans-serif;
     margin: 0 0 8px 8%;
 }
+
+.pagination {
+    padding: 30px 8% 60px 8%;
+}
+
+.pagination a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    border: 1px black solid;
+    box-sizing: border-box;
+    padding: 3px 11px;
+    margin-right: 5px;
+}
+
+.pagination .current-page {
+    background-color: #eb5e28;
+    color: white;
+}
+
+.pagination .current-page:active {
+    background-color: #cd4813;
+}
