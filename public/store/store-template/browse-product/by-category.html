@@ -6,6 +6,7 @@
 
   <link rel="stylesheet" href="../../../css/common.css">
   <link rel="stylesheet" href="../../../css/cards.css">
+  <link rel="stylesheet" href="../../../css/store/store-browse.css">
 
   <script src="https://kit.fontawesome.com/492245eeb1.js" crossorigin="anonymous"></script>
 
@@ -14,37 +15,38 @@
 <body>
   <main>
     <ul class="breadcrumb">
-      <li><a href="">Home</a><strong>&gt;</strong></li>
+      <li><a href="../../../mall/index.html">Home</a><strong>&gt;</strong></li>
       <li><a href="">Stationary</a><strong>&gt;</strong></li>
-      <li><a href="">HSY Shop</a></li>
+      <li><a href="#">HSY Shop</a></li>
     </ul>
 
     <!--Remember to add link for href-->
     <div class="content-body">
-      <img alt="image of a shop" src="../../../media/image/placeholder_1920x1080.jpg" width="100%" height="300px">
-      <a href="#"><img class="store-card-thumbnail" alt="image representation of a shop" src="../../../media/image/profile-placeholder_143x143.png"></a>
-      <h2>HSY Shop</h2>
-      <a href=""></a><i class="fab fa-facebook-square"></i></a>
-      <a href=""></a><i class="fab fa-twitter-square"></i></a>
-      <a href=""></a><i class="fab fa-youtube"></i></a>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, aspernatur dolores magni, aliquam perferendis debitis ipsa necessitatibus nisi 
-        quisquam velit ex dolorem, facilis et rerum quod blanditiis ducimus voluptatem adipisci!</p>
-      
       <div class="store-header">
-        <ul>
-          <li><div class="store-header-bttn"><a href="">Home</a></div></li>
+        <img class="store-img" alt="image of a shop" src="../../../media/image/placeholder_1920x1080.jpg" 
+        width="100%" height="300px">
+        <img class="store-card-thumbnail" alt="image representation of a shop" 
+        src="../../../media/image/profile-placeholder_143x143.png">
 
-          <li><div class="dropdown"><a href="">Products<i class="fas fa-caret-down ml-10">
-          </i></a></div></li>
-
+        <h2>HSY Shop</h2>
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-twitter-square"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, aspernatur dolores magni, 
+          aliquam perferendis debitis ipsa necessitatibus nisi quisquam velit ex dolorem, facilis et rerum quod 
+          blanditiis ducimus voluptatem adipisci!</p>
+        
+        <div class="store-nav">
+          <div class="store-nav-bttn"><a href="#">Home</a></div>
+          <div class="store-nav-dropdown"><a href="">Products<i class="fas fa-caret-down ml-10">
+          </i></a></div>
           <div class="dropdown-list">
-            <a href="">Category</a>
-            <a href="">Created Time</a>
-          </div>
-
-          <li><div class="store-header-bttn"><a href="">Contact</a></div></li>
-          <li><div class="store-header-bttn"><a href="">Bio</a></div></li>
-        </ul>
+              <a href="#">Category</a>
+              <a href="./by-date.html">Created Time</a>
+            </div>
+          <div class="store-nav-bttn"><a href="../pages/contact.html">Contact</a></div>
+          <div class="store-nav-bttn"><a href="../pages/bio.html">Bio</a></div>
+        </div>
       </div>
 
       <select name="store-category">

@@ -1,0 +1,33 @@
+.store-header {
+    text-align: center;
+}
+
+.store-header .store-card-thumbnail {
+    margin: 50px auto 20px;
+}
+
+h2 {
+    font-weight: normal;
+    margin: 5px auto 5px;
+}
+
+.store-header a {
+    color: #000;
+    text-decoration: none;
+}
+
+.store-header i {
+    padding: 0;
+    margin: 7px;
+}
+
+.store-header p {
+    text-align: justify;
+    margin: 25px 150px 60px 150px;
+}
+
+.store-nav div {
+    display: inline;
+    background-color: ;
+}
+

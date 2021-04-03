@@ -3,21 +3,25 @@ h1 {
     font-weight: normal;
 }
 
-form {
+.contact-form {
     margin: auto;
     padding: 3% 17%;
     overflow: auto;
 }
 
-form p, .contact-medthod, .contact-day {
+.title, .contact-form p, .contact-form label {
     font-size: 14px;
-    margin-bottom: 7px;
+}
+
+.title, .contact-form p {
+    margin: 13px 0 5px;
+    display: block;
 }
 
 .field, .name-field, textarea {
     width: 100%;
     box-sizing: border-box;
-    margin-bottom: 7px;
+    margin-bottom: 12px;
 }
 
 .field, .name-field {
@@ -35,34 +39,50 @@ textarea {
 .name {
     display: inline;
     width: 45%;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
-.name + p {
+.name + label {
     clear: both;
 }
 
-.contact-medthod {
+.contact-method {
     margin-right: 60px;
+    display: inline;
 }
 
 .contact-day {
     margin-right: 12px;
+    display: inline;
 }
 
-input[type="reset"], input[type="submit"] {
+.clear-bttn, .send-bttn {
     width: 120px;
     height: 45px;
     margin-top: 4%;
 }
 
-form input[type="reset"] {
+.clear-bttn:hover, .send-bttn:hover {
+    cursor: pointer;
+}
+
+.clear-bttn {
     background-color: #fff;
     border: 1px #000 solid;
 }
 
-form input[type="submit"] {
+.clear-bttn:active {
+    background-color: #ececec;
+    cursor: pointer;
+}
+
+.send-bttn {
     background-color: #000;
     color: #fff;
     border: none;
+}
+
+.send-bttn:active {
+    background-color: #403d39;
+    cursor: pointer;
 }
