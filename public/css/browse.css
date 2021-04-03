@@ -31,7 +31,6 @@
 .product-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .content {
@@ -47,4 +46,34 @@
 .category-list {
     position: relative;
     font: inherit;
+}
+
+.store-list {
+    display: flex;
+    flex-wrap: wrap;
+    ;
+}
+
+.store-card {
+    padding: 1rem;
+    margin: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: #555555;
+    position: relative;
+}
+
+.store-image {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    margin-right: 0;
+}
+
+.store-name {
+    text-align: center;
+    width: 100%;
+    display: block;
 }
