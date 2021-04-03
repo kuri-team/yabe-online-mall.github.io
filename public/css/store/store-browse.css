@@ -17,17 +17,73 @@ h2 {
 }
 
 .store-header i {
-    padding: 0;
-    margin: 7px;
+    padding: 7px;
 }
 
 .store-header p {
     text-align: justify;
-    margin: 25px 150px 60px 150px;
+    margin: 25px 10% 60px;
+    font-size: 14px;
+    line-height: 1.8;
 }
 
-.store-nav div {
-    display: inline;
-    background-color: ;
+.store-nav {
+    background-color: #ececec;
+    box-shadow: 0px 1px 3px 0px;
+    border: none;
+    margin-bottom: 100px;
 }
 
+.store-nav-bttn {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 24.7%;
+    margin: 0;
+    background-color: inherit;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.store-nav-bttn:hover {
+    background-color: #dddddd;
+}
+
+.store-nav i {
+    padding: 0;
+    margin-left: 20px;
+}
+
+.store-nav-dropdown-list {
+    background-color: #ececec;
+    width: 15%;
+    display: none;
+    position: absolute;
+    margin-top: 15px;
+    box-shadow: 0px 3px 6px 0px;
+}
+
+.store-nav-dropdown-list a {
+    display: block;
+    padding: 12px;
+}
+
+.store-nav-dropdown-list a:hover {
+    background-color: #dddddd;
+}
+
+.store-nav-dropdown-list hr {
+    border-bottom: 1px solid #403d39;
+    margin: 0;
+}
+
+.store-nav-dropdown:hover .store-nav-dropdown-list {
+    display: block;
+}
+
+.content-body select {
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    font-family: 'Noto Sans JP', 'Arial', sans-serif;
+    margin: 0 0 8px 8%;
+}
