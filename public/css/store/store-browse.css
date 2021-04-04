@@ -11,7 +11,7 @@ h2 {
     margin: 5px auto 5px;
 }
 
-.store-header a {
+.store-header a, .store-footer a {
     color: #000;
     text-decoration: none;
 }
@@ -30,19 +30,21 @@ h2 {
 .store-nav {
     background-color: #ececec;
     box-shadow: 0px 1px 3px 0px;
-    border: none;
     margin-bottom: 100px;
 }
 
-.store-nav-bttn {
-    border: none;
+.store-nav-bttn, .store-footer-bttn {
     display: inline-block;
     box-sizing: border-box;
-    width: 24.7%;
-    margin: 0;
     background-color: inherit;
     font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+
+.store-nav-bttn {
     padding: 15px;
+    width: 24.7%;
 }
 
 .store-nav-bttn:hover {
@@ -122,4 +124,23 @@ h2 {
 
 .pagination .current-page:hover {
     background-color: #cd4813;
+}
+
+.store-footer {
+    background-color: #dddddd;
+    margin: 0;
+}
+
+.store-footer-bttn {
+    padding: 20px; 
+    width: 27%;
+}
+
+.store-footer-bttn:hover, .store-footer-bttn:active {
+    background-color: #a9a9a9;
+}
+
+.store-logo {
+    padding: 5px;
+    margin: 1px 50px 0 10px;
 }
