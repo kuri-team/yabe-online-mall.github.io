@@ -1,6 +1,6 @@
 .content {
-    max-width: 1200px;
-    margin:0 auto;
+    max-width: 1500px;
+    margin:auto;
     padding: 3em;
 }
 
@@ -15,14 +15,19 @@
     padding-bottom: 1em;
 }
 
+.breadcrumb {
+    padding: 10px;
+    margin: 20px 0;
+}
+
 .select-list {
     outline: none;
     border: none;
     font-size:200%;
     background-color: #f7f7f7;
     font-family: inherit;
-    padding: 50px;
-    text-align: left;
+    padding: 10px;
+    margin:10px 0;
 }
 
 .pagination {
