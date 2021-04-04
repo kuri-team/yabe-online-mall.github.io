@@ -35,6 +35,7 @@ h2 {
 }
 
 .store-nav-bttn {
+    border: none;
     display: inline-block;
     box-sizing: border-box;
     width: 24.7%;
@@ -102,11 +103,23 @@ h2 {
     margin-right: 5px;
 }
 
+.pagination a:hover {
+    background-color: #ececec;
+}
+
+.pagination a:active {
+    background-color: #dddddd;
+}
+
 .pagination .current-page {
     background-color: #eb5e28;
     color: white;
 }
 
 .pagination .current-page:active {
+    background-color: #cd4813;
+}
+
+.pagination .current-page:hover {
     background-color: #cd4813;
 }
