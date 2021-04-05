@@ -13,15 +13,17 @@
 }
 
 .mall-home-section {
-    width: 80%;
+    width: 90%;
     margin: 30px auto;
 }
 
 .mall-home-section > h1 {
-    margin-left: 24px;
+    font-size: 22pt;
+    text-align: center;
+    padding-top: 1em;
 }
 
 .mall-home-section-heading-link {
     margin-left: 12px;
-    font-size: 9pt;
+    font-size: 11pt;
 }
