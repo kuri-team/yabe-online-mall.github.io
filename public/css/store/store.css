@@ -83,6 +83,14 @@ h2 {
     display: block;
 }
 
+.content-body select {
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    font-family: 'Noto Sans JP', 'Arial', sans-serif;
+    margin: 0 0 8px 8%;
+}
+
 .store-footer {
     background-color: #dddddd;
     margin: 0;
