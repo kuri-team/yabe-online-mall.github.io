@@ -85,9 +85,10 @@ h2 {
 
 .content-body select {
     border: none;
+    outline: none;
     background-color: transparent;
     font-size: 15px;
-    font-family: 'Noto Sans JP', 'Arial', sans-serif;
+    font-family: inherit;
     margin: 0 0 8px 8%;
 }
 
