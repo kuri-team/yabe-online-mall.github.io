@@ -10,20 +10,8 @@
 body {
     margin: 0;
     padding: 0;
-    background: #f7f7f7;
+    background: #ececec;
     font-family: 'Noto Sans JP', 'Arial', sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', 'Arial', sans-serif;
-}
-
-a {
-    color: #eb5e28;
-}
-
-a:hover {
-    text-decoration: none;
 }
 
 i {
@@ -131,12 +119,8 @@ i {
     align-items: flex-end;
 }
 
-.flex-no-wrap {
-    flex-wrap: nowrap;
-}
+.flex-item {
 
-.flex-wrap {
-    flex-wrap: wrap;
 }
 
 
@@ -155,19 +139,19 @@ hr {
     margin-right: 11px;
 }
 
+.nav-cart-bttn { /* Navigation bar cart button */
+    display: inline;
+}
+
 
 /*
     YABE Common navigation bar
 */
-header {
+nav {
+    display: flex;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    z-index: 99;
-}
-
-nav {
-    display: flex;
     justify-content: center;
     background: #252422;
     box-shadow: 0 0 6px 0;
@@ -176,7 +160,6 @@ nav {
     -webkit-box-shadow: 0 0 6px 0;
     width: 100%;
     padding: 19px 0;
-    z-index: 99;
 }
 
 nav a {
@@ -241,7 +224,7 @@ nav a {
     position: absolute;
     background: #ccc5b9;
     box-shadow: 0 3px 6px 0;
-    top: 51px;
+    top: 0;
     left: 200px;
     width: 200px;
 }
@@ -259,7 +242,7 @@ nav a {
     position: absolute;
     background: #ccc5b9;
     box-shadow: 0 3px 6px 0;
-    top: 102px;
+    top: 50px;
     left: 200px;
     width: 200px;
 }
@@ -353,7 +336,6 @@ nav a {
 }
 
 .nav-cart-bttn {
-    display: inline;
     border: none;
     color: #fff;
     background: #eb5e28;
@@ -389,31 +371,6 @@ nav a {
     text-decoration: underline;
 }
 
-.breadcrumb {
-    margin: 30px 6% 50px 6%;
-}
-
-.breadcrumb li {
-    display: inline;
-}
-
-.breadcrumb a {
-    color: #403D39;
-    text-decoration: none;
-    padding: 0 7px;
-    margin-right: 10px;
-}
-
-.breadcrumb a:hover {
-    text-decoration: underline;
-}
-
-.content-body {
-    margin: 30px auto 100px;
-    width: 80%;
-    background-color: #fff;
-}
-
 footer {
     padding-top: 70px;
     background: #ccc5b9;
@@ -439,16 +396,10 @@ footer {
     margin-right: 50px;
 }
 
-/* Hide footer logo on smaller screens to conserve space */
-@media only screen and (max-width: 1080px) {
-    #footer-logo {
-        display: none;
-    }
-}
-
 .footer-menu-item {
     color: #fffcf2;
     width: 150px;
+    height: 150px;
     padding: 0 50px 70px 50px;
 }
 
@@ -484,11 +435,4 @@ footer {
     color: #fff;
     background: #252422;
     text-align: center;
-}
-
-@media only screen and (max-width: 795px) {
-    .footer-menu-item {
-        padding-left: 150px;
-        padding-right: 150px;
-    }
 }
