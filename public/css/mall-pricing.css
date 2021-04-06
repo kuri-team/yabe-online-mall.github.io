@@ -1,0 +1,29 @@
+main {
+    width: 80%;
+}
+
+#pricing-shopper, #pricing-seller {
+    margin: 60px 13% 50px;
+}
+
+h2 {
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+.pricing-shopper-normal {
+    background-color: #ececec;
+}
+
+.pricing-shopper-premium, .pricing-seller-normal, .pricing-seller-premium {
+    background-color: white;
+}
+
+.pricing-seller-notice {
+    background-color: inherit;
+    border: 1px black solid;
+}
+
+.pricing-seller-notice hr {
+    border-bottom: 1px black solid;
+}

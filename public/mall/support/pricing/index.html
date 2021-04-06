@@ -2,9 +2,178 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../../../css/common.css">
+  <link rel="stylesheet" href="../../../css/mall-pricing.css">
+
+  <script src="https://kit.fontawesome.com/492245eeb1.js" crossorigin="anonymous"></script>
+
+  <title>Pricing</title>
 </head>
 <body>
+  <header>
+    <nav>
+      <span id="nav-logo"><a href="../../index.html">
+        <img class="nav-logo-sprite" alt="Yabe logo" src="../../../media/vector/logo-light.svg"></a></span>
+      <div id="nav-search-filter">Filter<i class="fas fa-caret-down ml-10"></i>
+        <div id="nav-search-filter-level-1">
+          <div class="nav-search-filter-option">All</div>
+          <hr>
+          <div class="nav-search-filter-option">Products
+            <div id="nav-search-filter-level-2-1">
+              <div class="nav-search-filter-option">Category</div>
+              <hr>
+              <div class="nav-search-filter-option">Date</div>
+            </div>
+          </div>
+          <hr>
+          <div class="nav-search-filter-option">Stores
+            <div id="nav-search-filter-level-2-2">
+              <div class="nav-search-filter-option">Category</div>
+              <hr>
+              <div class="nav-search-filter-option">Name</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="nav-search">
+        <form action="../browse" method="get" target="_blank">
+          <label for="q"></label>
+          <input class="nav-seach-bar" id="q" name="q" type="search" placeholder="Search" value="">
+        </form>
+      </div>
+      <div class="nav-search-bttn"><i class="fas fa-search"></i></div>
+      <a href="../../cart"><button class="nav-cart-bttn"><i class="fas fa-shopping-cart"></i>Cart</button></a>
+      <span id="nav-account">
+          <a href="../../account/login">Login</a>
+          <span class="vl"></span>
+          <a href="../../account/register">Register</a>
+        </span>
+    </nav>
+  </header>
 
+  <main>
+    <ul class="breadcrumb">
+      <li><a href="../../index.html">Home</a>/</li>
+      <li><a href="#">Pricing</a></li>
+    </ul>
+
+    <section id="pricing-shopper">
+      <h2>SHOPPER</h2>
+      <div class="pricing-shopper-normal">
+        <h4>YABE&trade; SHOPPER</h4>
+        <img src="../../../media/image/profile-placeholder_143x143.png" alt="pie-chart">
+        <p>FREE</p>
+        <ul>
+          <li>Lorem ipsum<i class="fas fa-check"></i></li>
+          <li>Dolor sit amet<i class="fas fa-check"></i></li>
+          <li>Consectetur adipisicin<i class="fas fa-check"></i></li>
+          <li>Sed do eiusmo</li>
+          <li>Tempor incididunt</li>
+        </ul>
+      </div>
+
+      <div class="pricing-shopper-premium">
+        <h4>YABE&trade; PREMIUM SHOPPER</h4>
+        <img src="../../../media/image/profile-placeholder_143x143.png" alt="hexagon">
+        <p>&dollar; 5.99 / month</p>
+        <ul>
+          <li>Lorem ipsum<i class="fas fa-check"></i></li>
+          <li>Dolor sit amet<i class="fas fa-check"></i></li>
+          <li>Consectetur adipisicin<i class="fas fa-check"></i></li>
+          <li>Sed do eiusmo<i class="fas fa-check"></i></li>
+          <li>Tempor incididunt<i class="fas fa-check"></i></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="pricing-seller">
+      <h2>SELLER</h2>
+      <div class="pricing-seller-normal">
+        <h4>YABE&trade; SELLER</h4>
+        <p><strong>28.99</strong> per month</p>
+        <p>&dollar;28.99 RENT</p>
+        <p>10&percnt; COMMISSION</p>
+        <img src="../../../media/image/profile-placeholder_143x143.png" alt="pie-chart">
+      </div>
+
+      <div class="pricing-seller-premium">
+        <h4>YABE&trade; PREMIUM SELLER <i class="fas fa-crown"></i></h4>
+        <p><strong>38.99</strong> per month</p>
+        <p>&dollar;28.99 RENT</p>
+        <p>8&percnt; COMMISSION</p>
+        <p><strong>SPONSORED</strong> AD</p>
+        <p><strong>CUSTOM</strong> PROMO</p>
+        <img src="../../../media/image/profile-placeholder_143x143.png" alt="hexagon">
+      </div>
+
+      <div class="pricing-seller-notice">
+        <h2>NOTICE</h2>
+        <ul>
+          <li>Lorem ipsum<i class="fas fa-check"></i></li>
+          <li>Dolor sit amet<i class="fas fa-check"></i></li>
+          <li>Consectetur adipisicin<i class="fas fa-check"></i></li>
+          <li>Sed do eiusmo<i class="fas fa-check"></i></li>
+          <li>Tempor incididunt<i class="fas fa-check"></i></li>
+        </ul>
+        <hr>
+        <img src="../../../media/image/profile-placeholder_143x143.png" alt="image of Yabe's CEO"
+        height="50px" width="50px">
+        <h4>Kieran White</h4>
+        <p>Founder & CEO Yabe Inc.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, error at eaque, hic, ut
+          impedit aspernatur omnis doloremque consequuntur architecto suscipit sunt. Natus eligendi
+          accusantium porro corrupti animi ad debitis!
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="flex-container flex-justify-content-center flex-align-items-start">
+      <div class="footer-menu-item" id="footer-logo">
+        <img alt="Yabe logo" src="../../../media/vector/footer-logo.svg"></div>
+
+      <div class="footer-menu-item" id="footer-menu-main-pages">
+        <p>MAIN PAGES</p>
+        <ul>
+          <li><a href="../../about-us">About Us</a></li>
+          <li><a href="../../contact">Contact Us</a></li>
+          <li><a href="../../support/pricing">Pricing</a></li>
+          <li><a href="../../support/faq">FAQs</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-menu-item" id="footer-menu-policy">
+        <p>POLICY</p>
+        <ul>
+          <li><a href="../../legal/tos">Terms of Service</a></li>
+          <li><a href="../../legal/privacy-policy">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-menu-item" id="footer-menu-browse">
+        <p>BROWSE</p>
+        <ul>
+          <li id="footer-menu-browse-product"><a href="../../browse/by-product">Products</a>
+            <ul>
+              <li><a href="../../browse/by-product/by-category.html">Browse by Category</a></li>
+              <li><a href="../../browse/by-product/by-date.html">Browse by Date</a></li>
+            </ul>
+          </li>
+          <li id="footer-menu-browse-store"><a href="../../browse/by-store">Stores</a>
+            <ul>
+              <li><a href="../../browse/by-store/by-category.html">Browse by Category</a></li>
+              <li><a href="../../browse/by-store/by-name.html">Browse by Name</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="footer-copyright">
+      <p>&copy;2021 YABE</p>
+    </div>
+  </footer>
 </body>
 </html>
