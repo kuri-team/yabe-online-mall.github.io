@@ -1,0 +1,94 @@
+.product-card {
+    background: #ccc5b9;
+    margin: 15px 15px;
+}
+
+.product-card a {
+    color: #252422;
+    text-decoration: none;
+}
+
+.product-card a:hover {
+    text-decoration: underline;
+}
+
+.product-card-details {
+    padding: 15px;
+}
+
+.product-card-title {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 15pt;
+    display: block;
+}
+
+.product-card-shop {
+    margin-bottom: 20px;
+    font-size: 9pt;
+    display: block;
+}
+
+.product-card-price {
+    display: inline;
+}
+
+.product-card-price-crossed-out {
+    display: inline;
+    color: #fffcf2;
+    text-decoration: line-through;
+}
+
+.product-card-sale-card {
+    float: right;
+    background: #fffcf2;
+    border: 1px solid #252422;
+    padding: 2px 5px;
+    font-size: 9pt;
+}
+
+.store-card {
+    background: #fff;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    margin: 15px 15px;
+}
+
+.store-card-thumbnail {
+    display: block;
+    width: 143px;
+}
+
+.store-card-name {
+    display: block;
+    color: #252422;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.store-card-name:hover {
+    text-decoration: underline;
+}
+
+
+/* Responsive cards */
+@media only screen and (max-width: 1280px) {
+    .store-card, .product-card {
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .store-card, .product-card {
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .store-card, .product-card {
+        margin: 2px;
+    }
+}
