@@ -9,7 +9,6 @@
 
 #pricing-content h2 {
     font-weight: normal;
-    margin-bottom: 40px;
 }
 
 #pricing-shopper {
@@ -50,7 +49,6 @@
 }
 
 .pricing-shopper-normal, .pricing-shopper-premium {
-    float: left;
     width: 27%;
 }
 
@@ -72,7 +70,6 @@
 }
 
 #pricing-seller {
-    clear: both;
     overflow: auto;
     margin: 60px 0 120px;
 }
@@ -84,7 +81,6 @@
 #pricing-seller .pricing-seller-fee {
     color: #eb5e28;
     padding-top: 50px;
-    margin-bottom: 30px;
 }
 
 #pricing-seller .pricing-seller-fee strong {
@@ -96,11 +92,6 @@
     height: 480px;
     padding: 30px;
     margin: 0 30px 0 0;
-    float: left;
-}
-
-.pricing-seller-premium h5 i {
-    margin-left: 10px;
 }
 
 .pricing-seller-notice {
@@ -118,17 +109,13 @@
     margin: 30px 0;
 }
 
-.pricing-seller-notice img {
-    float: left;
-}
-
 .pricing-seller-notice-info {
     display: inline-block;
     margin-left: 15px;
 }
 
 .pricing-seller-notice-heading {
-    padding: 5px 0 0 0;
+    padding: 2px 0 0 0;
     margin: 0;
 }
 
