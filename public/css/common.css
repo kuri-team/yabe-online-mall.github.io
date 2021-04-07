@@ -142,6 +142,14 @@ i {
     text-align: justify;
 }
 
+.direction-ltr {
+    direction: ltr;
+}
+
+.direction-rtl {
+    direction: rtl;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -460,7 +468,7 @@ nav a {
 }
 
 .breadcrumb a {
-    color: #403D39;
+    color: #403d39;
     text-decoration: none;
     padding: 0 7px;
     margin-right: 10px;
