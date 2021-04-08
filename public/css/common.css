@@ -142,9 +142,21 @@ i {
     text-align: justify;
 }
 
+.direction-ltr {
+    direction: ltr;
+}
+
+.direction-rtl {
+    direction: rtl;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
+}
+
+.flex-direction-column {
+    flex-direction: column;
 }
 
 .flex-justify-content-center {
@@ -177,22 +189,6 @@ i {
 
 .flex-wrap {
     flex-wrap: wrap;
-}
-
-.text-align-left {
-    text-align: left;
-}
-
-.text-align-right {
-    text-align: right;
-}
-
-.text-align-justify {
-    text-align: justify;
-}
-
-.text-align-center {
-    text-align: center;
 }
 
 
@@ -460,7 +456,7 @@ nav a {
 }
 
 .breadcrumb a {
-    color: #403D39;
+    color: #403d39;
     text-decoration: none;
     padding: 0 7px;
     margin-right: 10px;
