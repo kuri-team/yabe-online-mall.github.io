@@ -18,8 +18,7 @@
 
 .cart-product-details {
     padding: 15px;
-    display: block;
-    float: left;
+    width: 100%;
 }
 
 .cart-product-title {
@@ -35,7 +34,7 @@
 }
 
 .cart-product-price {
-    display: flex;
+    display: inline;
 }
 
 .cart-product-price-crossed-out {
@@ -60,17 +59,30 @@
 }
 
 .cart-product-remove {
-    display: block;
-    float: right;
     padding: 80px 30px;
+    width: 20%;
 }
 
 .cart-product-quantity-input{
-    width: 15%;
+    width: 10%;
+    text-align: center;
 }
 
+.cart-pr
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.cart-body {
+    width: 70%
+}
+
+.cart-product-quantity-button {
+    background-color: #ccc5b9;
+}
+
+.cart-product-quantity {
+    padding:20px;
 }
