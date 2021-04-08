@@ -8,13 +8,13 @@
     height: 300px;
 }
 
-.store-header .store-card-thumbnail {
-    margin: 50px auto 20px;
-}
-
-h2 {
+.store-header h2 {
     font-weight: normal;
     margin: 5px auto 5px;
+}
+
+.store-header .store-card-thumbnail {
+    margin: 50px auto 20px;
 }
 
 .store-header a, .store-footer a {
