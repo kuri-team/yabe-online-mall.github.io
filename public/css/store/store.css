@@ -70,7 +70,7 @@ h2 {
     position: absolute;
     left: 0;
     margin-top: 15px;
-    box-shadow: 0 3px 6px 0 #ddd;
+    box-shadow: 0 3px 6px 0 #555;
 }
 
 .store-nav-dropdown-list a {
@@ -131,10 +131,6 @@ h2 {
 .store-footer-bttn a:hover {
     text-decoration: underline;
 }
-
-/*.store-footer-bttn:hover, .store-footer-bttn:active {*/
-/*    background-color: #a9a9a9;*/
-/*}*/
 
 .store-logo {
     padding: 5px;
