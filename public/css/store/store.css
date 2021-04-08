@@ -1,5 +1,11 @@
 .store-header {
     text-align: center;
+    background-color: #ececec;
+}
+
+.store-header .store-img {
+    width: 100%;
+    height: 300px;
 }
 
 .store-header .store-card-thumbnail {
@@ -61,7 +67,7 @@ h2 {
     display: none;
     position: absolute;
     margin-top: 15px;
-    box-shadow: 0px 3px 6px 0px;
+    box-shadow: 0 3px 6px 0;
 }
 
 .store-nav-dropdown-list a {
@@ -108,4 +114,9 @@ h2 {
 .store-logo {
     padding: 5px;
     margin: 1px 50px 0 10px;
+}
+
+.store-logo img {
+    width: 50px;
+    height: 50px;
 }
