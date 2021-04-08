@@ -191,22 +191,6 @@ i {
     flex-wrap: wrap;
 }
 
-.text-align-left {
-    text-align: left;
-}
-
-.text-align-right {
-    text-align: right;
-}
-
-.text-align-justify {
-    text-align: justify;
-}
-
-.text-align-center {
-    text-align: center;
-}
-
 
 /*
     Miscellaneous styles used to decorate the website
