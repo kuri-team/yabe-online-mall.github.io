@@ -1,0 +1,50 @@
+/*
+    Modified from w3schools flip-card (Source: https://www.w3schools.com/howto/howto_css_flip_card.asp)
+ */
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    -moz-perspective: 1000px;
+    -webkit-perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #555555;
+    color: #000;
+}
+
+.flip-card-front img {
+    width: inherit;
+    height: inherit;
+}
+
+.flip-card-back {
+    background-color: #ccc5b9;
+    color: #fffcf2;
+    transform: rotateY(180deg);
+}

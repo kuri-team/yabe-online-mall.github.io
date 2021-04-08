@@ -1,0 +1,47 @@
+main {
+    width: 90%;
+    margin: 30px auto;
+}
+
+main div {
+    width: 80%;
+    margin: 0 auto 0;
+}
+
+#about-us-body {
+    padding: 100px 0 0 0;
+    margin: auto;
+}
+
+#about-us-content {
+    width: max-content;
+    width: -moz-max-content;
+    padding-left: 0;
+}
+
+#about-us-content h1 {
+    font-weight: 900;
+    font-size: xxx-large;
+}
+
+#about-us-content h1 span {
+    font-weight: normal;
+    font-size: medium;
+    margin: 1px;
+}
+
+#about-us-team-image {
+    align-self: center;
+}
+
+.team-image {
+    width: 400px;
+}
+
+#about-us-members {
+    padding: 50px 0 200px 0;
+}
+
+.about-us-member {
+    margin-bottom: 6%;
+}
