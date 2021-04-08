@@ -68,7 +68,6 @@
     text-align: center;
 }
 
-.cart-pr
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -84,5 +83,5 @@ input::-webkit-inner-spin-button {
 }
 
 .cart-product-quantity {
-    padding:20px;
+    padding: 20px;
 }
