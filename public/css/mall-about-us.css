@@ -41,3 +41,7 @@ main div {
 #about-us-members {
     padding: 50px 0 200px 0;
 }
+
+.about-us-member {
+    margin-bottom: 6%;
+}
