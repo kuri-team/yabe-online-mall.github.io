@@ -1,3 +1,8 @@
+main {
+    width: 90%;
+    margin: 30px auto;
+}
+
 main div {
     width: 80%;
     margin: 0 auto 0;
@@ -30,7 +35,7 @@ main div {
 }
 
 .team-image {
-    width: 100%;
+    width: 400px;
 }
 
 #about-us-members {
@@ -38,5 +43,5 @@ main div {
 }
 
 .about-us-member {
-    margin: 15px;
+    margin-bottom: 6%;
 }
