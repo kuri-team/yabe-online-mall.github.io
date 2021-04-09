@@ -171,18 +171,6 @@ i {
     justify-content: flex-end;
 }
 
-.flex-justify-content-space-around {
-    justify-content: space-around;
-}
-
-.flex-justify-content-space-between {
-    justify-content: space-between;
-}
-
-.flex-justify-content-space-evenly {
-    justify-content: space-evenly;
-}
-
 .flex-align-items-center {
     align-items: center;
 }
@@ -201,18 +189,6 @@ i {
 
 .flex-wrap {
     flex-wrap: wrap;
-}
-
-.grid-container {
-    display: grid;
-    display: -moz-grid;
-    display: -ms-grid;
-}
-
-.grid-container-inline {
-    display: inline-grid;
-    display: -moz-inline-grid;
-    display: -ms-inline-grid;
 }
 
 
