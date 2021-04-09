@@ -1,14 +1,20 @@
 .store-header {
     text-align: center;
+    box-shadow: 0 3px 6px 0 #ddd;
+}
+
+.store-header .store-img {
+    width: 100%;
+    height: 300px;
+}
+
+.store-header h2 {
+    font-weight: normal;
+    margin: 5px auto 5px;
 }
 
 .store-header .store-card-thumbnail {
     margin: 50px auto 20px;
-}
-
-h2 {
-    font-weight: normal;
-    margin: 5px auto 5px;
 }
 
 .store-header a, .store-footer a {
@@ -28,13 +34,18 @@ h2 {
 }
 
 .store-nav {
+    display: flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-flex;
     background-color: #ececec;
-    box-shadow: 0px 1px 3px 0px;
     margin-bottom: 100px;
+    width: 100%;
 }
 
 .store-nav-bttn, .store-footer-bttn {
-    display: inline-block;
+    flex: 1;
     box-sizing: border-box;
     background-color: inherit;
     font-size: 16px;
@@ -43,8 +54,9 @@ h2 {
 }
 
 .store-nav-bttn {
+    position: relative;
     padding: 15px;
-    width: 24.7%;
+    flex: 1;
 }
 
 .store-nav-bttn:hover {
@@ -58,11 +70,12 @@ h2 {
 
 .store-nav-dropdown-list {
     background-color: #ececec;
-    width: 15%;
+    width: 297px;
     display: none;
     position: absolute;
+    left: 0;
     margin-top: 15px;
-    box-shadow: 0px 3px 6px 0px;
+    box-shadow: 0 3px 6px 0 #555;
 }
 
 .store-nav-dropdown-list a {
@@ -71,7 +84,7 @@ h2 {
 }
 
 .store-nav-dropdown-list a:hover {
-    background-color: #dddddd;
+    background-color: #ddd;
 }
 
 .store-nav-dropdown-list hr {
@@ -89,24 +102,47 @@ h2 {
     background-color: transparent;
     font-size: 15px;
     font-family: inherit;
-    margin: 0 0 8px 8%;
+    margin: 0 0 8px 10%;
 }
 
 .store-footer {
+    display: flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-flex;
+    height: 80px;
     background-color: #dddddd;
     margin: 0;
 }
 
 .store-footer-bttn {
-    padding: 20px; 
-    width: 27%;
+    flex: 1;
+    display: flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-flex;
+    height: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
-.store-footer-bttn:hover, .store-footer-bttn:active {
-    background-color: #a9a9a9;
+.store-footer-bttn a {
+    color: #252422;
+}
+
+.store-footer-bttn a:hover {
+    text-decoration: underline;
 }
 
 .store-logo {
     padding: 5px;
-    margin: 1px 50px 0 10px;
+    margin: 1px 50px 0 50px;
+}
+
+.store-logo img {
+    width: 50px;
+    height: 50px;
 }
