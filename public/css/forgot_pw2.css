@@ -182,7 +182,7 @@
 
 .u-section-2 .u-line-1 {
   height: 6px;
-  transform-origin: left center 0px;
+  transform-origin: left center 0;
   width: 155px;
   margin: 31px auto 0 0;
 }
@@ -196,7 +196,7 @@
 
 .u-section-2 .u-line-2 {
   height: 6px;
-  transform-origin: left center 0px;
+  transform-origin: left center 0;
   width: 155px;
   margin: -14px 0 0 auto;
 }

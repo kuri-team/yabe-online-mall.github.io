@@ -27,7 +27,7 @@
 .u-section-1 .u-image-1 {
   width: 144px;
   height: 144px;
-  background-image: url("images/yabe_Alt-Dark1.png");
+  background-image: url("../media/image/yabe_Alt-Dark1.png");
   background-position: 50% 50%;
   margin: -108px auto 0 115px;
 }
@@ -101,7 +101,7 @@
   width: 485px;
   min-height: 590px;
   grid-template-columns: 100%;
-  grid-gap: 0px 0px;
+  grid-gap: 0 0;
   margin: -402px auto 60px 0;
 }
 

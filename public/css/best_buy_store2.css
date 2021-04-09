@@ -620,7 +620,7 @@
 }
 
 .u-section-4 .u-image-1 {
-  background-image: linear-gradient(0deg, rgba(247,247,247,0.65), rgba(247,247,247,0.65)), url("images/5_best_buy.jpg");
+  background-image: linear-gradient(0deg, rgba(247,247,247,0.65), rgba(247,247,247,0.65)), url("../media/image/best_buy_store_images/5_best_buy.jpg");
   min-height: 376px;
   background-position: 50% 50%;
 }
@@ -781,7 +781,7 @@
 
 .u-section-5 .u-image-1 {
   min-height: 345px;
-  background-image: url("images/7_best_buy.jpg");
+  background-image: url("../media/image/best_buy_store_images/7_best_buy.jpg");
   background-position: 50% 50%;
 }
 
