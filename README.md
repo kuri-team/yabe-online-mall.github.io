@@ -52,8 +52,7 @@ More requirements are listed below:
 - Accessibility needs to be enforced, e.g. always use the "alt" attribute to describe images; use the fallback mechanism for videos/audios/fonts to ensure at least visitors see something; etc.
 - Follow SEO guidelines to make the mall website search engine-friendly. Use semantic elements whenever possible.
 
-### 4. Specific Pages
-Specific details provided on [RMIT Canvas](https://rmit.instructure.com/courses/86190/assignments/571060) (Login with RMIT ID)
+### More specific details provided on [RMIT Canvas](https://rmit.instructure.com/courses/86190/assignments/571060) (Login with RMIT ID)
 ***
 
 ## Implementation
