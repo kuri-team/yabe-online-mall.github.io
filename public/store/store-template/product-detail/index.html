@@ -6,11 +6,11 @@
 
   <link rel="stylesheet" href="../../../css/common.css">
   <link rel="stylesheet" href="../../../css/cards.css">
-  <link rel="stylesheet" href="../../../css/store/store.css">
+  <link rel="stylesheet" href="../../../css/store/product-detail.css">
 
   <script src="https://kit.fontawesome.com/492245eeb1.js" crossorigin="anonymous"></script>
 
-  <title>HSY Shop</title>
+  <title>Purple Hyacinth comic</title>
 </head>
 <body>
   <header>
@@ -54,7 +54,7 @@
     </nav>
   </header>
 
-  <main>
+  <main id="product-content">
     <ul class="breadcrumb">
       <li><a href="../../../mall/index.html">Home</a>/</li>
       <li><a href="">Bookstore</a>/</li>
@@ -62,46 +62,49 @@
       <li><a href="#">Purple Hyacinth comic</a></li>
     </ul>
 
-    <section class="content-body product-info">
-      <span class="product-info-other-media">
+    <section id="product-info" class="content-body flex-container">
+      <span class="product-info-other-media flex-container flex-direction-column">
         <img src="../../../media/image/placeholder_262x250.png" alt="another image of the
-          product" width="50px" height="50px">
+            product">
         <img src="../../../media/image/placeholder_262x250.png" alt="another image of the
-          product" width="50px" height="50px">
+            product">
         <img src="../../../media/image/placeholder_262x250.png" alt="another image of the
-          product" width="50px" height="50px">
+            product">
         <img src="../../../media/image/placeholder_262x250.png" alt="another image of the
-          product" width="50px" height="50px">
+            product">
       </span>
 
       <span class="product-info-main-img">
-        <img src="../../../media/image/placeholder_1920x1080.jpg" alt="main image of the product"
-        width="450px" height="350px">
+        <img src="../../../media/image/placeholder_1920x1080.jpg" alt="main image of the product">
       </span>
 
       <div class="product-info-main">
-        <p>BRAND</p>
-        <h2 class="product-info-name">Purple Hyacinth Comic</h2>
-        <p><i class="far fa-heart"></i> Add to Favorites</p>
-        <p>Lorem ipsum dolor sit amet
-          consectetur adipisicing elit</p>
-        <p>&dollar;16.95</p>
-        <p>1/4/2020</p>
-        <button class="add-to-cart">ADD TO CART</button>
-        <button class="buy-now">BUY NOW</button>
+        <p>BRAND/ AUTHOR</p>
+        <h2>Purple Hyacinth Comic</h2>
+        <p class="add-to-fave"><i class="far fa-heart"></i> Add to Favorites</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        <div class="product-info-details">
+          <p class="product-info-price float-left">&dollar;16.95</p>
+          <p class="product-info-date float-left">1/4/2020</p>
+        </div>
+        <div class="shop-bttn clear-both">
+          <button class="add-to-cart"><a href="../../../mall/cart">ADD TO CART</a></button>
+          <button class="buy-now"><a href="../../../mall/cart/checkout.html">BUY NOW</a></button>
+        </div>
       </div>
     </section>
 
-    <section class="content-body product-more-detail">
-      <h3>Product Details</h3>
+    <section id="product-description" class="content-body">
+      <h3>Product Description</h3>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, aspernatur dolores magni,
         aliquam perferendis debitis ipsa necessitatibus nisi quisquam velit ex dolorem, facilis
         et rerum quod blanditiis ducimus voluptatem adipisci.</p>
-      <h4>More information</h4>
+
+      <h3 class="more-info">More information</h3>
       <table class="product-info-table">
         <tr>
           <th>Publisher</th>
-          <td>S&amp;E Company</td>
+          <td>Soph &amp; Eph Company</td>
         </tr>
         <tr>
           <th>ID number</th>
@@ -112,12 +115,12 @@
           <td>English</td>
         </tr>
         <tr>
-          <th>No. chapters</th>
-          <td>200</td>
+          <th>No. pages</th>
+          <td>345</td>
         </tr>
         <tr>
           <th>Dimension</th>
-          <td>13cm x 15cm x 17cm</td>
+          <td>20 x 15 x 17 cm</td>
         </tr>
         <tr>
           <th>Special gift</th>
@@ -126,8 +129,8 @@
       </table>
     </section>
 
-    <section class="recommended-product">
-      <h2>RECOMMENDED PRODUCTS</h2>
+    <section id="recommended-product">
+      <h2 class="text-align-center">RECOMMENDED PRODUCTS</h2>
       <div class="flex-container flex-justify-content-center flex-align-items-center flex-wrap">
         <div class="product-card">
           <a href="./index.html"><img alt="image of a product"
@@ -159,17 +162,6 @@
             <a class="product-card-shop" href="#">Short Description Goes Here</a>
             <p class="product-card-price">$7.30</p>
             <div class="product-card-sale-card">3/8/2019</div>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <a href="./index.html"><img alt="image of a product"
-            src="../../../media/image/placeholder_262x250.png"></a>
-          <div class="product-card-details">
-            <a class="product-card-title" href="./index.html">Product Title Goes Here</a>
-            <a class="product-card-shop" href="#">Short Description Goes Here</a>
-            <p class="product-card-price">$10.99</p>
-            <div class="product-card-sale-card">15/2/2019</div>
           </div>
         </div>
       </div>
