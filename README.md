@@ -66,8 +66,8 @@ Yabe online mall e-commerce website: https://kuri-team.github.io/yabe-online-mal
 
 ### 3. Key people
 
-- Instructor: Tri Dang, PhD. [@TriDang](https://github.com/TriDang)
-- Student: Mike Vo [@miketvo](https://github.com/miketvo)
+- Instructor: Tri Dang, PhD. [@TriDang](https://github.com/TriDang) | [website](https://tridang.info)
+- Student: Mike Vo [@miketvo](https://github.com/miketvo) | [website](https://miketvo.com)
 - Student: Doan Yen Nhi [@doanyennhi](https://github.com/doanyennhi)
 - Student: Du Duc Manh [@rider3458](https://github.com/rider3458)
 - Student: Tran Ngoc Anh Thu [@tnathu-ai](https://github.com/tnathu-ai)
