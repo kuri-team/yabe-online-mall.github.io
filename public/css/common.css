@@ -30,6 +30,10 @@ i {
     color: inherit;
 }
 
+.hidden {
+    display: none;
+}
+
 .ml-10 {
     margin-left: 10px;
 }
