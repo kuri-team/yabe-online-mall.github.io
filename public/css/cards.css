@@ -1,6 +1,6 @@
 .product-card {
     background: #ccc5b9;
-    margin: 15px 15px;
+    margin: 2% 0;
 }
 
 .product-card a {
@@ -52,12 +52,14 @@
     -moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
     -o-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
-    padding: 50px;
-    margin: 15px 15px;
+    padding: 50px 0;
+    margin: 2% 0;
+    width: 262px;
 }
 
 .store-card-thumbnail {
     display: block;
+    margin: auto;
     width: 143px;
 }
 
