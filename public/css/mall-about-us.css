@@ -35,7 +35,7 @@ main div {
 }
 
 .team-image {
-    width: 400px;
+    width: 100%;
 }
 
 #about-us-members {
@@ -43,5 +43,5 @@ main div {
 }
 
 .about-us-member {
-    margin-bottom: 6%;
+    margin: 15px;
 }
