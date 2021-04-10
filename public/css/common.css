@@ -248,12 +248,13 @@ header {
 
 nav {
     display: flex;
+    -webkit-justify-content: center;
     justify-content: center;
     background: #252422;
-    box-shadow: 0 0 6px 0;
     -moz-box-shadow: 0 0 6px 0;
     -o-box-shadow: 0 0 6px 0;
     -webkit-box-shadow: 0 0 6px 0;
+    box-shadow: 0 0 6px 0;
     width: 100%;
     padding: 19px 0;
     z-index: 99;
@@ -264,8 +265,6 @@ nav a {
 }
 
 #nav-logo {
-    display: inline;
-    float: left;
     margin-right: 5%;
 }
 
@@ -277,12 +276,14 @@ nav a {
 
 #nav-search-filter {
     display: flex;
+    -webkit-justify-content: center;
     justify-content: center;
     width: 80px;
     height: 50px;
     padding: 0 20px;
     color: #403d39;
     background: #ccc5b9;
+    -webkit-align-items: center;
     align-items: center;
 }
 
@@ -354,6 +355,7 @@ nav a {
 
 .nav-search-filter-option {
     display: flex;
+    -webkit-align-items: center;
     align-items: center;
     padding-left: 10px;
     height: 50px;
@@ -369,7 +371,6 @@ nav a {
 
 #nav-search form input {
     border: none;
-    box-shadow: none;
     font-size: 1rem;
     font-weight: 500;
     height: 50px;
