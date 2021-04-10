@@ -55,6 +55,11 @@
     width: 20%;
 }
 
+.cart-product-remove-button {
+    height: 40px;
+    width: 80px;
+    background-color: #fff;
+}
 .cart-product-quantity-input {
     width: 20px;
     text-align: center;
@@ -159,3 +164,8 @@ tr:last-child {
 .cart-fees-button {
     border: none;
 }
+
+.cart-product-summary-table tr {
+    height:70px;
+}
+
