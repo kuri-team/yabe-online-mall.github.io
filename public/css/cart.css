@@ -81,6 +81,7 @@ input[type=number] {
 
 .cart-product-quantity-button {
     background-color: #ccc5b9;
+    border-color: #ccc5b9;
 }
 
 .cart-product-quantity {
@@ -175,4 +176,8 @@ tr:last-child {
     height: 50px;
     padding: 10px;
     white-space: normal;
+}
+
+button {
+    border: 1px solid #252422;
 }
