@@ -102,18 +102,20 @@ input[type=number] {
     text-align: left;
 }
 
-.cart-fees-button-order {
+.cart-product-summary-button-order {
     background-color: #252422;
     color: #fff;
     margin:10px;
     text-decoration: none;
+    border-color: #252422;
 }
 
-.cart-fees-button-continue {
+.cart-product-summary-button-continue {
     background-color: #eb5e28;
     color: #fff;
     margin: 10px;
     text-decoration: none;
+    border-color: #252422;
 }
 
 .cart-product-list {
@@ -161,7 +163,7 @@ tr:last-child {
 .cart-product-total {
     padding: 3em;
 }
-.cart-fees-button {
+.cart-product-summary-button {
     border: none;
 }
 
@@ -169,3 +171,8 @@ tr:last-child {
     height:70px;
 }
 
+.cart-product-summary-button td button {
+    height: 50px;
+    padding: 10px;
+    white-space: normal;
+}
