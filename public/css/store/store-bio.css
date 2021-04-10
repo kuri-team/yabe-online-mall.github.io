@@ -1,0 +1,37 @@
+#bio-content {
+    width: 80%;
+    margin: 0 auto 60px;
+}
+
+#bio-content h2 {
+    font-weight: normal;
+    padding: 20px 0 30px;
+}
+
+#bio-content p {
+    line-height: 1.5;
+}
+
+.shop-founder-ceo, .shop-cfo {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.shop-founder-ceo {
+    padding-right: 20px;
+}
+
+.shop-cfo {
+    padding-left: 20px;
+}
+
+.shop-leader-name {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 20px auto 5px;
+}
+
+.shop-leader-position {
+    font-size: 13px;
+    margin: 0 auto 30px;
+}
