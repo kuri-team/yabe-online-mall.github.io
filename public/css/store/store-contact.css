@@ -1,0 +1,38 @@
+#store-contact {
+    width: 80%;
+    margin: 0 auto 50px;
+}
+
+#store-contact-form, #store-contact-info {
+    width: 47%;
+    box-sizing: border-box;
+}
+
+#store-contact-form {
+    padding: 10px 0 40px;
+    margin-right: 6%;
+}
+
+#store-contact-form input[type="text"], #store-contact-form textarea {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid #403d39;
+}
+
+#store-contact-form input[type="text"] {
+    height: 35px;
+}
+
+#store-contact-form textarea {
+    height: 100px;
+    min-height: 50px;
+    min-width: 45%;
+    max-width: 100%;
+}
+
+#store-contact-info {
+    background-color: #ececec;
+    box-shadow: 0 3px 6px 0 #ddd;
+}
