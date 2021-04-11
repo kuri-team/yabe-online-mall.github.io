@@ -240,13 +240,17 @@ hr {
     YABE Common navigation bar
 */
 header {
-    position: sticky;
     position: -webkit-sticky;
+    position: sticky;
     top: 0;
     z-index: 99;
 }
 
 nav {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-flex;
     display: flex;
     -webkit-justify-content: center;
     justify-content: center;
@@ -379,33 +383,6 @@ nav a {
     width: 500px;
 }
 
-/* Responsive search bar */
-@media only screen and (max-width: 1280px) {
-    #nav-search form input {
-        width: 300px
-    }
-}
-
-@media only screen and (max-width: 1080px) {
-    #nav-search form input {
-        width: 200px
-    }
-}
-
-@media only screen and (max-width: 950px) {
-    #nav-search form input {
-        display: none;
-    }
-
-    #nav-search-filter {
-        display: none;
-    }
-
-    .nav-search-bttn {
-        display: none;
-    }
-}
-
 #nav-search form input:focus {
     outline: none;
 }
@@ -431,6 +408,25 @@ nav a {
 
 .nav-search-bttn:active {
     background: #dddddd;
+}
+
+/* Responsive search bar */
+@media only screen and (max-width: 1280px) {
+    #nav-search form input {
+        width: 300px
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    #nav-search form input {
+        width: 200px
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    #nav-search form input, #nav-search-filter, .nav-search-bttn, .nav-search-bttn * {
+        display: none;
+    }
 }
 
 .nav-cart-bttn {
@@ -468,6 +464,47 @@ nav a {
 
 #nav-account a:hover {
     text-decoration: underline;
+}
+
+.mobile-only {
+    display: none;
+}
+
+.mobile-menu-buttn {
+    height: 50px;
+    padding: 0 20px;
+    margin-right: 20px;
+    color: #fff;
+    background: #252422;
+    border: none;
+}
+
+.mobile-menu-buttn i {
+    font-size: 32pt;
+}
+
+.mobile-menu-buttn:active {
+    color: #403d39;
+}
+
+/* Responsive header nav */
+@media only screen and (max-width: 950px) {
+    nav {
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+    }
+
+    #nav-logo {
+        margin-left: 20px;
+    }
+
+    #nav-account, .nav-cart-bttn {
+        display: none;
+    }
+
+    .mobile-only {
+        display: block;
+    }
 }
 
 .breadcrumb {
