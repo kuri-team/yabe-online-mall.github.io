@@ -280,6 +280,7 @@ nav a {
 
 #nav-search-filter {
     display: flex;
+    position: relative;
     -webkit-justify-content: center;
     justify-content: center;
     width: 80px;
@@ -308,9 +309,9 @@ nav a {
     -webkit-box-shadow: 0 3px 6px 0;
     -o-box-shadow: 0 3px 6px 0;
     -moz-box-shadow: 0 3px 6px 0;
-    top: 69px;
-    left: 331px;
-    width: 200px;
+    top: 50px;
+    left: 0;
+    width: 150%;
 }
 
 #nav-search-filter-level-1:hover {
@@ -327,8 +328,8 @@ nav a {
     background: #ccc5b9;
     box-shadow: 0 3px 6px 0;
     top: 51px;
-    left: 200px;
-    width: 200px;
+    left: 180px;
+    width: 100%;
 }
 
 #nav-search-filter-level-2-1:hover {
@@ -345,8 +346,8 @@ nav a {
     background: #ccc5b9;
     box-shadow: 0 3px 6px 0;
     top: 102px;
-    left: 200px;
-    width: 200px;
+    left: 180px;
+    width: 100%;
 }
 
 #nav-search-filter-level-2-2:hover {
