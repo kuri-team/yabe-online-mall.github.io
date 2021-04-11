@@ -15,11 +15,11 @@ body {
     margin: 0;
     padding: 0;
     background: #f7f7f7;
-    font-family: 'Noto Sans JP', 'Arial', sans-serif;
+    font-family: 'Noto Sans JP', 'Arial', sans-serif; !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', 'Arial', sans-serif;
+    font-family: 'Roboto', 'Arial', sans-serif; !important;
 }
 
 a {
