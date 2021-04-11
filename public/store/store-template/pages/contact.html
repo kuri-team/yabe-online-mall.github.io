@@ -91,10 +91,9 @@
         </div>
       </section>
 
-      <section id="store-contact">
-        <h2 class="text-align-center">CONTACT</h2>
-
-        <div id="store-contact-form" class="float-left">
+      <h2 class="text-align-center">CONTACT</h2>
+      <section id="store-contact" class="flex-container flex-wrap">
+        <div id="store-contact-form">
           <form action="" method="get">
             <input id="full_name" type="text" name="full_name" placeholder="Full Name" required>
 
@@ -105,11 +104,12 @@
 
             <textarea name="contact_msg" id="contact_msg" placeholder="Message" required></textarea>
 
-            <input class="submit-bttn" type="submit" name="submit" value="SUBMIT">
+            <input class="reset-bttn float-left" type="reset" name="reset" value="RESET">
+            <input class="submit-bttn float-right" type="submit" name="submit" value="SUBMIT">
           </form>
         </div>
 
-        <div id="store-contact-info" class="float-right text-align-center">
+        <div id="store-contact-info" class="text-align-center">
           <h3>Other Contact Info</h3>
           <h4><i class="fas fa-map-marker-alt"></i> Address</h4>
           <p>702 Nguyen Van Linh, Tan Hung, District 7, HCMC</p>

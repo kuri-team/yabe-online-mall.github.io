@@ -32,7 +32,35 @@
     max-width: 100%;
 }
 
+#store-contact-form .reset-bttn, #store-contact-form .submit-bttn {
+    min-width: 25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+#store-contact-form .reset-bttn {
+    background-color: #fff;
+    border: 1px #000 solid;
+}
+
+#store-contact-form .reset-bttn:hover, #store-contact-form .reset-bttn:active {
+    background-color: #ececec;
+    cursor: pointer;
+}
+
+#store-contact-form .submit-bttn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+#store-contact-form .submit-bttn:hover, #store-contact-form .submit-bttn:active {
+    background-color: #403d39;
+    cursor: pointer;
+}
+
 #store-contact-info {
     background-color: #ececec;
     box-shadow: 0 3px 6px 0 #ddd;
+    padding: 20px;
 }
