@@ -1,7 +1,7 @@
 #store-contact-form, #store-contact-info {
     width: 47%;
-    box-sizing: border-box;
     min-height: 350px;
+    box-sizing: border-box;
 }
 
 #store-contact-form {
@@ -11,11 +11,11 @@
 
 #store-contact-form .contact-field, #store-contact-form textarea {
     display: block;
-    margin-bottom: 20px;
-    width: 100%;
-    border-radius: 7px;
-    border: 1px solid #403d39;
     font-family: 'Noto Sans JP', 'Arial', sans-serif;
+    width: 100%;
+    border: 1px solid #403d39;
+    border-radius: 7px;
+    margin-bottom: 20px;
 }
 
 #store-contact-form .contact-field {
@@ -46,8 +46,8 @@
 }
 
 #store-contact-form .submit-bttn {
-    background-color: #000;
     color: #fff;
+    background-color: #000;
 }
 
 #store-contact-form .submit-bttn:hover, #store-contact-form .submit-bttn:active {
@@ -57,8 +57,8 @@
 
 #store-contact-info {
     background-color: #ececec;
-    box-shadow: 0 3px 6px 0 #ddd;
     padding: 20px;
+    box-shadow: 0 3px 6px 0 #ddd;
 }
 
 #store-contact-info h3 {

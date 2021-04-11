@@ -91,14 +91,17 @@
 
 .pricing-seller-normal, .pricing-seller-premium, .pricing-seller-notice  {
     width: 24%;
-    height: 480px;
+    min-height: 480px;
     padding: 30px;
-    margin: 0 30px 0 0;
+}
+
+.pricing-seller-normal, .pricing-seller-premium {
+    border: 1px #fff solid;
 }
 
 .pricing-seller-notice {
     background-color: transparent;
-    border: 1px black solid;
+    border: 1px #000 solid;
 }
 
 .pricing-seller-notice ul li::before {
