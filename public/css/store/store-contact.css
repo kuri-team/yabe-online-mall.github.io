@@ -1,27 +1,24 @@
-#store-contact {
-    width: 80%;
-    margin: 0 auto 50px;
-}
-
 #store-contact-form, #store-contact-info {
     width: 47%;
     box-sizing: border-box;
+    min-height: 350px;
 }
 
 #store-contact-form {
-    padding: 10px 0 40px;
+    padding: 20px 0;
     margin-right: 6%;
 }
 
-#store-contact-form input[type="text"], #store-contact-form textarea {
+#store-contact-form .contact-field, #store-contact-form textarea {
     display: block;
     margin-bottom: 20px;
     width: 100%;
     border-radius: 7px;
     border: 1px solid #403d39;
+    font-family: 'Noto Sans JP', 'Arial', sans-serif;
 }
 
-#store-contact-form input[type="text"] {
+#store-contact-form .contact-field {
     height: 35px;
 }
 
@@ -35,12 +32,12 @@
 #store-contact-form .reset-bttn, #store-contact-form .submit-bttn {
     min-width: 25%;
     padding: 10px 20px;
+    border: 1px #000 solid;
     box-sizing: border-box;
 }
 
 #store-contact-form .reset-bttn {
     background-color: #fff;
-    border: 1px #000 solid;
 }
 
 #store-contact-form .reset-bttn:hover, #store-contact-form .reset-bttn:active {
@@ -51,7 +48,6 @@
 #store-contact-form .submit-bttn {
     background-color: #000;
     color: #fff;
-    border: none;
 }
 
 #store-contact-form .submit-bttn:hover, #store-contact-form .submit-bttn:active {
@@ -63,4 +59,20 @@
     background-color: #ececec;
     box-shadow: 0 3px 6px 0 #ddd;
     padding: 20px;
+}
+
+#store-contact-info h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#store-contact-info h4 {
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+#store-contact-info p {
+    padding-bottom: 30px;
+    margin: 0;
 }

@@ -96,6 +96,16 @@
     display: block;
 }
 
+#store-page-content {
+    width: 80%;
+    margin: 0 auto 80px;
+}
+
+.store-content-heading {
+    font-weight: normal;
+    padding: 20px 0 30px;
+}
+
 .content-body select {
     border: none;
     outline: none;

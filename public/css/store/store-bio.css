@@ -1,13 +1,3 @@
-#bio-content {
-    width: 80%;
-    margin: 0 auto 60px;
-}
-
-#bio-content h2 {
-    font-weight: normal;
-    padding: 20px 0 30px;
-}
-
 #bio-content p {
     line-height: 1.5;
 }
