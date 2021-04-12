@@ -1,0 +1,182 @@
+/* Common store header styling */
+
+.store-header {
+    text-align: center;
+    box-shadow: 0 3px 6px 0 #ddd;
+}
+
+.store-header .store-img {
+    width: 100%;
+    height: 300px;
+}
+
+.store-header .store-card-thumbnail {
+    margin: 50px auto 20px;
+}
+
+.store-header h2 {
+    font-weight: normal;
+    margin: 5px auto;
+}
+
+.store-header a, .store-footer a {
+    color: #000;
+    text-decoration: none;
+}
+
+.store-header i {
+    padding: 7px;
+}
+
+.store-header p {
+    text-align: justify;
+    margin: 25px 10% 60px;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+/* Common store navigation bar styling */
+
+.store-nav {
+    display: flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-flex;
+    background-color: #ececec;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.store-nav-bttn, .store-footer-bttn {
+    flex: 1;
+    box-sizing: border-box;
+    background-color: inherit;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+
+.store-nav-bttn {
+    position: relative;
+    padding: 15px;
+    flex: 1;
+}
+
+.store-nav-bttn:hover {
+    background-color: #dddddd;
+}
+
+.store-nav i {
+    padding: 0;
+    margin-left: 20px;
+}
+
+.store-nav-dropdown-list {
+    background-color: #ececec;
+    width: 297px;
+    display: none;
+    position: absolute;
+    left: 0;
+    margin-top: 15px;
+    box-shadow: 0 3px 6px 0 #555;
+}
+
+.store-nav-dropdown-list a {
+    display: block;
+    padding: 12px;
+}
+
+.store-nav-dropdown-list a:hover {
+    background-color: #ddd;
+}
+
+.store-nav-dropdown-list hr {
+    border-bottom: 1px solid #403d39;
+    margin: 0;
+}
+
+.store-nav-dropdown:hover .store-nav-dropdown-list {
+    display: block;
+}
+
+/* Content styling for store home page */
+
+.store-home-content {
+    width: 90%;
+    margin: auto;
+}
+
+.store-home-content h1 {
+    font-size: 22pt;
+    display: inline-block;
+}
+
+/* Content styling for store bio and contact pages */
+
+#store-page-content {
+    width: 80%;
+    margin: 0 auto 80px;
+}
+
+.store-content-heading {
+    font-weight: normal;
+    padding: 20px 0 30px;
+}
+
+/* Select element styling for Store by Category and by Date pages */
+
+.content-body select {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 15px;
+    font-family: inherit;
+    margin: 0 0 8px 10%;
+}
+
+
+
+/* Common store footer styling */
+
+.store-footer {
+    display: flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-flex;
+    height: 80px;
+    background-color: #dddddd;
+    margin: 0;
+}
+
+.store-footer-bttn {
+    flex: 1;
+    display: flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-flex;
+    height: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.store-footer-bttn a {
+    color: #252422;
+}
+
+.store-footer-bttn a:hover {
+    text-decoration: underline;
+}
+
+.store-logo {
+    padding: 5px;
+    margin: 1px 50px 0 50px;
+}
+
+.store-logo img {
+    width: 50px;
+    height: 50px;
+}

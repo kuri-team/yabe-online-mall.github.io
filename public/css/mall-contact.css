@@ -1,0 +1,83 @@
+.contact-form {
+    margin: auto;
+    padding: 3% 17%;
+    overflow: auto;
+}
+
+.title, .contact-form p, .contact-form label {
+    font-size: 14px;
+}
+
+.title, .contact-form p {
+    margin: 13px 0 5px;
+    display: block;
+}
+
+.field, .name-field, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+
+.field, .name-field {
+    height: 40px;
+}
+
+textarea {
+    height: 90px;
+    min-width: 45%;
+    max-width: 100%;
+    min-height: 45px;
+    display: block;
+}
+
+.name {
+    display: inline;
+    width: 45%;
+    margin-bottom: 7px;
+}
+
+.name + label {
+    clear: both;
+}
+
+.contact-method {
+    margin-right: 60px;
+    display: inline;
+}
+
+.contact-day {
+    margin-right: 12px;
+    display: inline;
+}
+
+.clear-bttn, .send-bttn {
+    width: 120px;
+    height: 45px;
+    margin-top: 4%;
+}
+
+.clear-bttn:hover, .send-bttn:hover {
+    cursor: pointer;
+}
+
+.clear-bttn {
+    background-color: #fff;
+    border: 1px #000 solid;
+}
+
+.clear-bttn:active {
+    background-color: #ececec;
+    cursor: pointer;
+}
+
+.send-bttn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.send-bttn:active {
+    background-color: #403d39;
+    cursor: pointer;
+}

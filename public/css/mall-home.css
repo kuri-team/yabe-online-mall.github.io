@@ -13,17 +13,49 @@
 }
 
 .mall-home-section {
-    width: 90%;
+    width: 80%;
     margin: 30px auto;
 }
 
 .mall-home-section > h1 {
     font-size: 22pt;
-    text-align: center;
+    text-align: left;
     padding-top: 1em;
 }
 
 .mall-home-section-heading-link {
     margin-left: 12px;
     font-size: 11pt;
+}
+
+.mall-home-section-gallery {
+    display: -ms-grid;
+    display: -moz-grid;
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    grid-template-rows: auto auto;
+    align-content: center;
+    width: 100%;
+}
+
+.mall-home-section-gallery-title {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.mall-home-section-gallery-left-buttn {
+    grid-column: 1;
+    grid-row: 2;
+    margin: auto 20px auto auto;
+}
+
+.mall-home-section-gallery-content {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.mall-home-section-gallery-right-buttn {
+    grid-column: 3;
+    grid-row: 2;
+    margin: auto auto auto 20px;
 }

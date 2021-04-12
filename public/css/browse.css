@@ -1,0 +1,18 @@
+.store-list {
+    text-align: left;
+    padding-bottom: 1em;
+}
+
+.product-list {
+    text-align: left;
+    padding-bottom: 1em;
+}
+.select-list {
+    outline: none;
+    border: none;
+    font-size: 15px;
+    background-color: transparent;
+    font-family: inherit;
+    padding: 10px;
+    margin: 10px 0;
+}
