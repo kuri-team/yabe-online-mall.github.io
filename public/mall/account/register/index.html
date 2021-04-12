@@ -1,10 +1,221 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="font-size: 16px;">
 <head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-</head>
-<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <title>SIGN_UP</title>
+  <link rel="stylesheet" href="../../../css/register1.css" media="screen">
+  <link rel="stylesheet" href="../../../css/common.css">
+  <link rel="stylesheet" href="../../../css/register2.css" media="screen">
+  <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
 
+  <meta property="og:title" content="Sign_Up">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#4345e7">
+  <link rel="canonical" href="index.html">
+  <meta property="og:url" content="index.html">
+</head>
+<header>
+  <nav>
+    <span id="nav-logo"><a href="./"><img class="nav-logo-sprite" alt="Yabe logo" src="../../../media/vector/logo-light.svg"></a></span>
+    <div id="nav-search-filter">Filter<i class="fas fa-caret-down ml-10"></i>
+      <div id="nav-search-filter-level-1">
+        <div class="nav-search-filter-option">All</div>
+        <hr>
+        <div class="nav-search-filter-option">Products
+          <div id="nav-search-filter-level-2-1">
+            <div class="nav-search-filter-option">Category</div>
+            <hr>
+            <div class="nav-search-filter-option">Date</div>
+          </div>
+        </div>
+        <hr>
+        <div class="nav-search-filter-option">Stores
+          <div id="nav-search-filter-level-2-2">
+            <div class="nav-search-filter-option">Category</div>
+            <hr>
+            <div class="nav-search-filter-option">Name</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="nav-search">
+      <form action="../../browse" method="get" target="_blank">
+        <label for="q"></label>
+        <input class="nav-seach-bar" id="q" name="q" type="search" placeholder="Search" value="">
+      </form>
+    </div>
+    <div class="nav-search-bttn"><i class="fas fa-search"></i></div>
+    <a href="../../cart"><button class="nav-cart-bttn"><i class="fas fa-shopping-cart"></i>Cart</button></a>
+    <span id="nav-account">
+        <a href="../../account/login">Login</a>
+        <span class="vl"></span>
+        <a href="../../account/register">Register</a>
+      </span>
+  </nav>
+</header>
+
+<body data-home-page="Sign_Up.html" data-home-page-title="Sign_Up" class="u-body">
+<section class="u-black u-clearfix u-section-1" id="carousel_1b75">
+  <div class="u-clearfix u-sheet u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+    <div class="u-container-style u-custom-color-2 u-expanded-width-sm u-expanded-width-xs u-group u-opacity u-opacity-45 u-group-1">
+      <div class="u-container-layout u-valign-top-xs u-container-layout-1">
+        <h2 class="u-align-center u-text u-text-custom-color-3 u-text-1">SIGN UP</h2>
+        <div class="u-image u-image-circle u-image-1" data-image-width="2492" data-image-height="1302"></div>
+        <div class="u-align-left u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-form u-form-1">
+          <form action="#" method="POST" class="u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 10px" name="form">
+            <div class="u-form-group u-form-name u-form-group-1">
+              <label for="name-5a14" class="u-form-control-hidden u-label">Name</label>
+              <input type="text" placeholder="First Name" id="name-5a14" name="name" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white" required="">
+            </div>
+            <div class="u-form-email u-form-group u-form-group-2">
+              <label for="email-5a14" class="u-form-control-hidden u-label">Email</label>
+              <input type="email" placeholder="Last name" id="email-5a14" name="email" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white" required="">
+            </div>
+            <div class="u-form-group u-form-phone u-form-group-3">
+              <label for="phone-42bb" class="u-form-control-hidden u-label">Phone</label>
+              <input type="tel" pattern="\+?\d{0,3}[\s\(\-]?([0-9]{2,3})[\s\)\-]?([\s\-]?)([0-9]{3})[\s\-]?([0-9]{2})[\s\-]?([0-9]{2})" placeholder="Your phone (e.g. +976113113)" id="phone-42bb" name="phone" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white" required="">
+            </div>
+            <div class="u-form-group u-form-name u-form-group-4">
+              <label for="name-eb35" class="u-form-control-hidden u-label">Name</label>
+              <input type="text" placeholder="Email Address" id="name-eb35" name="name-1" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white" required="">
+            </div>
+            <div class="u-form-group u-form-group-5">
+              <label for="text-f8b9" class="u-form-control-hidden u-label"></label>
+              <input type="text" id="text-f8b9" name="text" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white" placeholder="Password">
+            </div>
+            <div class="u-form-group u-form-group-6">
+              <label for="text-e8bd" class="u-form-control-hidden u-label"></label>
+              <input type="text" placeholder="Retype password" id="text-e8bd" name="text-1" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white">
+            </div>
+            <div class="u-form-address u-form-group u-form-group-7">
+              <label for="address-73e4" class="u-form-control-hidden u-label">Address</label>
+              <input type="text" placeholder="Your address" id="address-73e4" name="address" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white" required="">
+            </div>
+            <div class="u-form-address u-form-group u-form-group-8">
+              <label for="address-3216" class="u-form-control-hidden u-label">Address</label>
+              <input type="text" placeholder="City" id="address-3216" name="address-1" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white" required="">
+            </div>
+            <div class="u-form-address u-form-group u-form-group-9">
+              <label for="address-bf20" class="u-form-control-hidden u-label">Address</label>
+              <input type="text" placeholder="Zipcode" id="address-bf20" name="address-2" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white" required="">
+            </div>
+            <div class="u-form-group u-form-select u-form-group-10">
+              <label for="select-d581" class="u-form-control-hidden u-label"></label>
+              <div class="u-form-select-wrapper">
+                <select id="select-d581" name="Country" class="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white" required="required">
+                  <option value="Country">Country</option>
+                  <option value="Item 3">Vietnam</option>
+                </select>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
+              </div>
+            </div>
+            <div class="u-form-group u-form-radiobutton u-form-group-11">
+              <div class="u-form-radio-button-wrapper">
+                <span>Who are you?</span>
+                <section>
+                <input type="radio" name="radiobutton" id="yes" value="Store Owner">
+                <label class="u-label" for="yes">Store Owner</label>
+                <br>
+                <input type="radio" name="radiobutton" id="no" value="Shopper">
+                <label class="u-label" for="no">Shopper</label>
+                </section>
+                <br>
+              </div>
+            </div>
+            <div class="u-form-agree u-form-group u-form-group-12">
+              <input type="checkbox" id="agree-cfbf" name="agree" class="u-agree-checkbox" required="">
+              <label for="agree-cfbf" class="u-label">I accept the <a href="#">Terms of Service</a>
+              </label>
+            </div>
+            <div class="u-align-right u-form-group u-form-submit u-form-group-13">
+              <a href="#" class="u-btn u-btn-round u-btn-submit u-button-style u-custom-color-1 u-radius-35 u-text-black u-text-hover-white u-btn-1">Submit</a>
+              <input type="submit" value="submit" class="u-form-control-hidden">
+            </div>
+            <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
+            <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
+            <input type="hidden" value="" name="recaptchaResponse">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="u-list u-repeater u-list-1">
+      <div class="u-container-style u-custom-color-3 u-list-item u-opacity u-opacity-75 u-repeater-item u-list-item-1">
+        <div class="u-container-layout u-similar-container u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xl u-container-layout-2"><span class="u-icon u-icon-circle u-text-body-color u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 513.64 513.64" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d5b6"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" class="u-svg-content" viewBox="0 0 513.64 513.64" x="0px" y="0px" id="svg-d5b6"><g><g><path d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72    c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68    c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44    l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z"></path>
+</g>
+</g></svg></span>
+          <h5 class="u-text u-text-body-color u-text-2">Call Us</h5>
+          <p class="u-text u-text-white u-text-3">
+            <a href="https://www.rmit.edu.vn/contact-us" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-white u-btn-2">(+84) 28 3776 1300</a>
+          </p>
+        </div>
+      </div>
+      <div class="u-container-style u-custom-background u-custom-color-3 u-list-item u-opacity u-opacity-75 u-repeater-item u-list-item-2">
+        <div class="u-container-layout u-similar-container u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xl u-container-layout-3"><span class="u-icon u-icon-circle u-text-body-color u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-fb66"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-fb66"><g><g><path d="M256,0C161.896,0,85.333,76.563,85.333,170.667c0,28.25,7.063,56.26,20.49,81.104L246.667,506.5    c1.875,3.396,5.448,5.5,9.333,5.5s7.458-2.104,9.333-5.5l140.896-254.813c13.375-24.76,20.438-52.771,20.438-81.021    C426.667,76.563,350.104,0,256,0z M256,256c-47.052,0-85.333-38.281-85.333-85.333c0-47.052,38.281-85.333,85.333-85.333    s85.333,38.281,85.333,85.333C341.333,217.719,303.052,256,256,256z"></path>
+</g>
+</g></svg></span>
+          <h5 class="u-text u-text-body-color u-text-4">Location</h5>
+          <p class="u-text u-text-white u-text-5">
+            <a href="https://www.rmit.edu.vn/contact-us" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-3">702 Nguyễn Văn Linh, District 7, Hồ Chí Minh 700000, Vietnam </a>
+          </p>
+        </div>
+      </div>
+      <div class="u-container-style u-custom-color-3 u-list-item u-opacity u-opacity-75 u-repeater-item u-list-item-3">
+        <div class="u-container-layout u-similar-container u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xl u-container-layout-4"><span class="u-icon u-icon-circle u-text-body-color u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-27f6"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" class="u-svg-content" viewBox="0 0 512 512" id="svg-27f6"><g><path d="m386.058 256c0-8.284 6.716-15 15-15h31.587c-7.224-85.814-75.831-154.421-161.645-161.645v31.588c0 8.284-6.716 15-15 15s-15-6.716-15-15v-31.588c-85.814 7.224-154.421 75.831-161.645 161.645h31.587c8.284 0 15 6.716 15 15s-6.716 15-15 15h-31.587c7.224 85.814 75.831 154.421 161.645 161.645v-31.588c0-8.284 6.716-15 15-15s15 6.716 15 15v31.588c85.814-7.224 154.421-75.831 161.645-161.645h-31.587c-8.284 0-15-6.716-15-15zm-39.467-71.629-79.838 82.087c-5.558 5.714-14.618 6.086-20.625.835l-59.598-52.101c-6.237-5.452-6.873-14.929-1.42-21.165 5.452-6.237 14.928-6.875 21.166-1.421l48.889 42.739 69.921-71.891c5.776-5.938 15.273-6.069 21.211-.295 5.938 5.778 6.07 15.274.294 21.212z"></path><path d="m256 0c-141.159 0-256 114.841-256 256s114.841 256 256 256 256-114.841 256-256-114.841-256-256-256zm0 463.286c-114.298 0-207.286-92.988-207.286-207.286s92.988-207.286 207.286-207.286 207.286 92.988 207.286 207.286-92.988 207.286-207.286 207.286z"></path>
+</g></svg></span>
+          <h5 class="u-text u-text-body-color u-text-6">Business Hours</h5>
+          <p class="u-text u-text-white u-text-7">
+            <a href="https://www.rmit.edu.vn/contact-us" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-white u-btn-4">Mon - Fri, 8am to 5pm</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 </body>
+<footer>
+  <div class="flex-container flex-justify-content-center flex-align-items-start flex-wrap">
+    <div class="footer-menu-item" id="footer-logo"><img alt="Yabe logo" src="../../../media/vector/footer-logo.svg"></div>
+
+    <div class="footer-menu-item" id="footer-menu-main-pages">
+      <p>MAIN PAGES</p>
+      <ul>
+        <li><a href="../../about-us">About Us</a></li>
+        <li><a href="../../contact">Contact Us</a></li>
+        <li><a href="../../support/pricing">Pricing</a></li>
+        <li><a href="../../support/faq">FAQs</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-menu-item" id="footer-menu-policy">
+      <p>POLICY</p>
+      <ul>
+        <li><a href="../../legal/tos">Terms of Service</a></li>
+        <li><a href="../../legal/privacy-policy">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-menu-item" id="footer-menu-browse">
+      <p>BROWSE</p>
+      <ul>
+        <li id="footer-menu-browse-product"><a href="../../browse/by-product">Products</a>
+          <ul>
+            <li><a href="../../browse/by-product/by-category.html">Browse by Category</a></li>
+            <li><a href="../../browse/by-product/by-date.html">Browse by Date</a></li>
+          </ul>
+        </li>
+        <li id="footer-menu-browse-store"><a href="../../browse/by-store">Stores</a>
+          <ul>
+            <li><a href="../../browse/by-store/by-category.html">Browse by Category</a></li>
+            <li><a href="../../browse/by-store/by-name.html">Browse by Name</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="footer-copyright">
+    <p>&copy;2021 YABE</p>
+  </div>
+</footer>
 </html>
