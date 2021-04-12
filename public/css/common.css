@@ -501,6 +501,55 @@ nav a {
     color: #403d39;
 }
 
+.mobile-menu {
+    position: relative;
+    top: 0;
+    right: 0;
+    background: #555555;
+    -moz-box-shadow: 0 0 6px 0;
+    -o-box-shadow: 0 0 6px 0;
+    -webkit-box-shadow: 0 0 6px 0;
+    box-shadow: 0 0 6px 0;
+}
+
+.mobile-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mobile-menu ul {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column;
+    flex-flow: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mobile-menu ul li {
+    padding: 15px 0;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    text-align: center;
+}
+
+.mobile-menu ul li:active {
+    background: #252422;
+}
+
+.mobile-menu-cart {
+    background: #eb5e28;
+    margin: 10px;
+}
+
+.mobile-menu-cart i {
+    margin-right: 5px;
+}
+
 /* Responsive header nav */
 @media only screen and (max-width: 950px) {
     nav {
