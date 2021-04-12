@@ -60,6 +60,7 @@
 .store-card-thumbnail {
     display: block;
     margin: auto;
+    padding: 0 20px;
     width: 143px;
 }
 
@@ -77,9 +78,13 @@
 
 
 /* Responsive cards */
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1370px) {
     .store-card, .product-card {
         margin: 10px;
+    }
+
+    .overflow-hidden .store-card:first-child, .overflow-hidden .product-card:first-child {
+        margin-left: 0;
     }
 }
 
@@ -127,4 +132,19 @@
 .cards-left-buttn:active, .cards-right-buttn:active {
     background: #bab1a0;
     color: #fffcf2;
+}
+
+/* Responsive Card navigation elements */
+@media only screen and (max-width: 767px) {
+    .cards-left-buttn, .cards-right-buttn {
+        display: none;
+    }
+
+    .product-card-title {
+        font-size: 12pt;
+    }
+
+    .product-card-sale-card {
+        display: none;
+    }
 }
