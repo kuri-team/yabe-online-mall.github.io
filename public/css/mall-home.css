@@ -43,7 +43,7 @@
     grid-row: 1;
 }
 
-.mall-home-section-gallery-left-buttn {
+.mall-home-section-gallery-left-bttn {
     grid-column: 1;
     grid-row: 2;
     margin: auto 20px auto auto;
@@ -54,7 +54,7 @@
     grid-row: 2;
 }
 
-.mall-home-section-gallery-right-buttn {
+.mall-home-section-gallery-right-bttn {
     grid-column: 3;
     grid-row: 2;
     margin: auto auto auto 20px;

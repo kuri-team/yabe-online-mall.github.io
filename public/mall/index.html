@@ -52,11 +52,11 @@
       </span>
 
       <span class="mobile-only">
-        <button class="mobile-menu-buttn"><i class="fas fa-bars"></i></button>
+        <button onclick="toggleMobileMenu()" class="mobile-menu-bttn"><i class="fas fa-bars" id="mobile-menu-icon"></i></button>
       </span>
     </nav>
 
-    <div class="mobile-only mobile-menu" id="mobile-menu">
+    <div class="mobile-menu" id="mobile-menu">
       <ul>
         <li class="mobile-menu-cart"><a href="./cart"><i class="fas fa-shopping-cart"></i>Cart</a></li>
         <li><a href="./account/login">My Account</a></li>
@@ -77,7 +77,7 @@
     <section class="mall-home-section mall-home-section-gallery" id="new-products">
       <h1 class="mall-home-section-gallery-title">NEW PRODUCTS<span class="mall-home-section-heading-link"><a href="browse/by-product/by-date.html">MORE</a></span></h1>
 
-      <button class="cards-left-buttn mall-home-section-gallery-left-buttn" id="new-products-left-buttn"><i class="fas fa-angle-left"></i></button>
+      <button class="cards-left-bttn mall-home-section-gallery-left-bttn" id="new-products-left-bttn"><i class="fas fa-angle-left"></i></button>
       <div class="mall-home-section-gallery-content flex-container flex-justify-content-space-between flex-align-items-center overflow-hidden">
         <div class=" product-card">
           <a href="../store/store-template/product-detail/"><img alt="image of a product" src="../media/image/placeholder_262x250.png"></a>
@@ -123,7 +123,7 @@
           </div>
         </div>
       </div>
-      <button class="cards-right-buttn mall-home-section-gallery-right-buttn" id="new-products-right-buttn"><i class="fas fa-angle-right"></i></button>
+      <button class="cards-right-bttn mall-home-section-gallery-right-bttn" id="new-products-right-bttn"><i class="fas fa-angle-right"></i></button>
     </section>
 
     <section class="mall-home-section" id="featured-products">
@@ -263,7 +263,7 @@
         </div>
       </div>
 
-      <button class="cards-load-more-buttn" id="load-more-featured-products" onclick="">LOAD MORE</button>
+      <button class="cards-load-more-bttn" id="load-more-featured-products" onclick="">LOAD MORE</button>
     </section>
 
     <section class="mall-home-section" id="featured-stores">
@@ -331,13 +331,13 @@
         </div>
       </div>
 
-      <button class="cards-load-more-buttn" id="load-more-featured-stores" onclick="">LOAD MORE</button>
+      <button class="cards-load-more-bttn" id="load-more-featured-stores" onclick="">LOAD MORE</button>
     </section>
 
     <section class="mall-home-section mall-home-section-gallery" id="new-stores">
       <h1 class="mall-home-section-gallery-title">NEW STORES<span class="mall-home-section-heading-link"><a href="browse/by-store/by-date.html">MORE</a></span></h1>
 
-      <button class="cards-left-buttn mall-home-section-gallery-left-buttn" id="new-stores-left-buttn"><i class="fas fa-angle-left"></i></button>
+      <button class="cards-left-bttn mall-home-section-gallery-left-bttn" id="new-stores-left-bttn"><i class="fas fa-angle-left"></i></button>
       <div class="mall-home-section-gallery-content flex-container flex-justify-content-space-between flex-align-items-center overflow-hidden clear-both">
         <div class="store-card">
           <a href="#"><img class="store-card-thumbnail" alt="image representation of a shop" src="../media/image/profile-placeholder_143x143.png"></a>
@@ -359,7 +359,7 @@
           <a class="store-card-name" href="#">Shop Name</a>
         </div>
       </div>
-      <button class="cards-right-buttn mall-home-section-gallery-right-buttn" id="new-stores-right-buttn"><i class="fas fa-angle-right"></i></button>
+      <button class="cards-right-bttn mall-home-section-gallery-right-bttn" id="new-stores-right-bttn"><i class="fas fa-angle-right"></i></button>
     </section>
   </main>
 
@@ -408,5 +408,7 @@
       <p>&copy;2021 YABE</p>
     </div>
   </footer>
+
+  <script src="../js/common.js"></script>
 </body>
 </html>
