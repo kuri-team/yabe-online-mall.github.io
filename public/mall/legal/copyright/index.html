@@ -9,7 +9,7 @@
 
   <script src="https://kit.fontawesome.com/492245eeb1.js" crossorigin="anonymous"></script>
 
-  <title>Yabe | Legal | Copyright</title>
+  <title>Yabe | Copyright</title>
 </head>
 <body>
   <header>
@@ -45,11 +45,27 @@
       <div class="nav-search-bttn"><i class="fas fa-search"></i></div>
       <a href="../../cart"><button class="nav-cart-bttn"><i class="fas fa-shopping-cart"></i>Cart</button></a>
       <span id="nav-account">
-          <a href="../../account/login">Login</a>
-          <span class="vl"></span>
-          <a href="../../account/register">Register</a>
-        </span>
+        <a href="../../account/login">Login</a>
+        <span class="vl"></span>
+        <a href="../../account/register">Register</a>
+      </span>
+
+      <span class="mobile-only">
+        <button onclick="toggleMobileMenu()" class="mobile-menu-bttn"><i class="fas fa-bars" id="mobile-menu-icon"></i></button>
+      </span>
     </nav>
+
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li class="mobile-menu-cart"><a href="../../cart"><i class="fas fa-shopping-cart"></i>Cart</a></li>
+        <li><a href="../../account/login">My Account</a></li>
+        <li><a href="../../">Home</a></li>
+        <li><a href="../../browse">Browse</a></li>
+        <li><a href="../../about-us">About Us</a></li>
+        <li><a href="../../contact">Contact Us</a></li>
+        <li><a href="../../support/faq">FAQs</a></li>
+      </ul>
+    </div>
   </header>
 
   <main id="content">
@@ -81,7 +97,7 @@
           OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
           SOFTWARE.</p>
         <br>
-        <p class="text-align-right"><a href="#">BACK</a></p>
+        <p class="text-align-right"><a href="#" onclick="previousPage()">BACK</a></p>
       </div>
     </div>
   </main>
@@ -131,5 +147,7 @@
       <p>&copy;2021 YABE</p>
     </div>
   </footer>
+
+  <script src="../../../js/common.js"></script>
 </body>
 </html>

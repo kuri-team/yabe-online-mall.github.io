@@ -10,3 +10,7 @@ function toggleMobileMenu() {
         MENU.setAttribute("style", "display: none;");
     }
 }
+
+function previousPage() {
+    window.history.back();
+}
