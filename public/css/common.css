@@ -159,6 +159,14 @@ i {
     direction: rtl;
 }
 
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-visible {
+    overflow: visible;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -476,7 +484,7 @@ nav a {
     display: none;
 }
 
-.mobile-menu-buttn {
+.mobile-menu-bttn {
     height: 50px;
     padding: 0 20px;
     margin-right: 20px;
@@ -485,12 +493,63 @@ nav a {
     border: none;
 }
 
-.mobile-menu-buttn i {
+.mobile-menu-bttn i {
     font-size: 32pt;
 }
 
-.mobile-menu-buttn:active {
+.mobile-menu-bttn:active {
     color: #403d39;
+}
+
+.mobile-menu {
+    display: none;
+    position: relative;
+    top: 0;
+    height: 100vh;
+    background: #555555;
+    -moz-box-shadow: 0 0 6px 0;
+    -o-box-shadow: 0 0 6px 0;
+    -webkit-box-shadow: 0 0 6px 0;
+    box-shadow: 0 0 6px 0;
+    transform-origin: top;
+}
+
+.mobile-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mobile-menu ul {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column;
+    flex-flow: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mobile-menu ul li {
+    padding: 15px 0;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    text-align: center;
+}
+
+.mobile-menu ul li:active {
+    background: #252422;
+}
+
+.mobile-menu-cart {
+    background: #eb5e28;
+    margin: 10px;
+}
+
+.mobile-menu-cart i {
+    margin-right: 5px;
 }
 
 /* Responsive header nav */
@@ -630,7 +689,42 @@ footer {
 /* Responsive footer */
 @media only screen and (max-width: 795px) {
     .footer-menu-item {
-        padding-left: 150px;
-        padding-right: 150px;
+        display: block;
+    }
+}
+
+
+/******************************
+    Mobile responsive
+*******************************/
+@media only screen and (max-width: 767px) {
+    nav {
+        height: 30px;
+    }
+
+    .nav-logo-sprite, .mobile-menu-bttn {
+        height: 30px;
+    }
+
+    .mobile-menu-bttn i {
+        font-size: 21pt;
+    }
+
+    .content-body {
+        width: 100%;
+    }
+}
+
+
+/******************************
+    Animations
+*******************************/
+@keyframes expand-top {
+    from {
+        transform: scaleY(0);
+    }
+
+    to {
+        transform: scaleY(1);
     }
 }
