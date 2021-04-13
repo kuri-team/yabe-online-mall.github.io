@@ -40,3 +40,35 @@ main div {
 .about-us-member {
     margin: 15px;
 }
+
+
+/* Responsive About Us */
+@media only screen and (max-width: 1290px) {
+    .flip-card, .about-us-member {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 1095px) {
+    .flip-card, .about-us-member {
+        width: 200px;
+        height: 200px;
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 1095px) {
+    .flip-card, .about-us-member {
+        width: 300px;
+        height: 300px;
+        font-size: initial;
+    }
+
+    #about-us-members .flex-container {
+        -webkit-flex-flow: column;
+        flex-flow: column;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+}
