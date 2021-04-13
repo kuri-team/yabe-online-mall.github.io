@@ -1,0 +1,9 @@
+.store-home-content {
+    width: 90%;
+    margin: auto;
+}
+
+.store-home-content h1 {
+    font-size: 22pt;
+    display: inline-block;
+}

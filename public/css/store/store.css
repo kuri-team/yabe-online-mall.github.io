@@ -1,4 +1,4 @@
-/* Common store header styling */
+/* Common store header */
 
 .store-header {
     text-align: center;
@@ -35,7 +35,7 @@
     line-height: 1.8;
 }
 
-/* Common store navigation bar styling */
+/* Common store navigation bar */
 
 .store-nav {
     display: flex;
@@ -100,44 +100,7 @@
     display: block;
 }
 
-/* Content styling for store home page */
-
-.store-home-content {
-    width: 90%;
-    margin: auto;
-}
-
-.store-home-content h1 {
-    font-size: 22pt;
-    display: inline-block;
-}
-
-/* Content styling for store bio and contact pages */
-
-#store-page-content {
-    width: 80%;
-    margin: 0 auto 80px;
-}
-
-.store-content-heading {
-    font-weight: normal;
-    padding: 20px 0 30px;
-}
-
-/* Select element styling for Store by Category and by Date pages */
-
-.content-body select {
-    border: none;
-    outline: none;
-    background-color: transparent;
-    font-size: 15px;
-    font-family: inherit;
-    margin: 0 0 8px 10%;
-}
-
-
-
-/* Common store footer styling */
+/* Common store footer */
 
 .store-footer {
     display: flex;
