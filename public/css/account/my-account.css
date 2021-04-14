@@ -2905,7 +2905,6 @@ section.u-image,
     outline-width: 0;
     background-color: transparent;
     margin: 0;
-    -webkit-text-decoration-skip: objects;
 }
 .u-nav-link,
 .u-nav-link:hover,
