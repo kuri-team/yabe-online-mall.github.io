@@ -1,9 +1,39 @@
-.store-home-content {
+.store-home-content-new, .store-home-content-featured {
     width: 90%;
     margin: auto;
 }
 
-.store-home-content h1 {
+.store-home-content-header h1 {
     font-size: 22pt;
     display: inline-block;
 }
+
+/* Responsive design
+@media only screen and (min-width: 1370px) {
+    .store-home-content .flex-container {
+        justify-content: space-between;
+        margin-bottom: 80px;
+    }
+}
+
+@media only screen and (max-width: 1370px) {
+    .store-home-content .flex-container {
+        margin-bottom: 80px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .store-home-content .flex-container {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .store-home-content-new, .store-home-content-featured {
+        margin: 0;
+    }
+
+    .store-home-content-header {
+        margin-bottom: 20px;
+    }
+}
+
+ */
