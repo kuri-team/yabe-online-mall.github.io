@@ -1,0 +1,17 @@
+.content-body section {
+    padding: 80px 80px 20px;
+    text-align: justify;
+}
+
+
+@media (max-width: 767px) {
+    .content-body section {
+        padding: 10px;
+    }
+    .content-body {
+        width: 100%;
+    }
+    .content-body h2 {
+        font-size: 16pt;
+    }
+}
