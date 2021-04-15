@@ -65,7 +65,7 @@
     background-color: #dddddd;
 }
 
-.store-nav i {
+.store-nav .store-nav-dropdown-icon {
     padding: 0;
     margin-left: 20px;
 }
@@ -98,13 +98,12 @@
     display: block;
 }
 
-/* Responsive store navbar
-#navbar-icon, #navbar-icon + label, #responsive-store-navbar ul, #nav-product-bttn {
+/* Responsive store navbar */
+#responsive-store-navbar, #navbar-icon, #navbar-icon + label, #responsive-store-navbar ul, #nav-product-bttn {
     display: none;
 }
 
 #responsive-store-navbar li {
-    width: 100%;
     background-color: #ececec;
     padding: 15px;
 }
@@ -119,10 +118,19 @@
     }
 
     #responsive-store-navbar {
+        display: block;
         width: 100%;
         text-align: center;
         box-sizing: border-box;
         padding: 15px;
+    }
+
+    .responsive-store-navbar-title {
+        font-size: larger;
+    }
+
+    .responsive-store-navbar i {
+        padding: 0;
     }
 
     #navbar-icon + label {
@@ -147,7 +155,6 @@
         margin: 0;
         padding: 0;
         list-style: none;
-        box-shadow: 0 3px 6px 0 #555;
     }
 
     #nav-product-bttn:checked ~ ul {
@@ -162,16 +169,25 @@
         padding: 0;
         list-style: none;
     }
+
+    .responsive-store-navbar-content {
+        position: relative;
+        top: 0;
+        padding: 0;
+    }
+
+    .responsive-store-navbar-content-dropdown {
+        font-size: smaller;
+    }
 }
-*/
 
 /* Common store footer */
 .store-footer {
-    display: flex;
     display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
     display: -webkit-flex;
+    display: flex;
     height: 80px;
     background-color: #dddddd;
     margin: 0;
@@ -207,8 +223,9 @@
     width: 50px;
     height: 50px;
 }
-/* Responsive store footer
-#store-footer-icon, #store-footer-icon + label, #responsive-store-footer ul {
+
+/* Responsive store footer */
+#responsive-store-footer #store-footer-icon, #store-footer-icon + label, #responsive-store-footer ul {
     display: none;
 }
 
@@ -257,5 +274,8 @@
         box-shadow: 0 3px 6px 0 #555;
         width: 100%;
     }
+
+    #responsive-store-footer-dropdown {
+        transform-origin: top;
+    }
 }
-*/
