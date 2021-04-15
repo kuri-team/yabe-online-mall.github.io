@@ -255,3 +255,17 @@ li.active > a.u-button-style.u-button-style.u-active-custom-color-7[class*="u-bo
     letter-spacing: 1px;
     margin: 40px auto 0 507px;
 }
+
+@media only screen and (max-width: 768px) {
+    #my-account-text {
+        width: 320px
+    }
+    #tab-list {
+        width: 0;
+        margin-left: 10%;
+    }
+    #tab-0da5 {
+        width: 10px;
+        margin-left: -450px;
+    }
+}
