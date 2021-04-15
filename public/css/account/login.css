@@ -1,7 +1,6 @@
 .desktop-only {
     display: initial;
 }
-
 .u-btn {
     /*display: inline-block;*/
     display: table;
@@ -42,7 +41,6 @@
     color: inherit;
     height: auto;
 }
-
 .u-form-vertical.u-form-spacing-27 {
     margin-left: -27px;
     width: calc(100% +  27px);
@@ -736,7 +734,6 @@ html { font-size: 16px; }
         width: 320px;
     }
 }
-
 /*responsive for tablet and phone
  */
 @media only screen and (max-width: 1023px) {
