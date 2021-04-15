@@ -747,3 +747,46 @@ html { font-size: 16px; }
         width: 100%;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    /*.u-custom-color-3, .u-body.u-custom-color-3, .u-container-style.u-custom-color-3:before, .u-table-alt-custom-color-3 tr:nth-child(even) {*/
+
+    /*}*/
+
+    #orange-box {
+        display: none;
+    }
+    #cream-box {
+        margin-top: 50px;
+        margin-left: -105px;
+    }
+    #text {
+        margin: 0 auto;
+    }
+    .u-section-1 .u-btn-3 {
+        background-image: none;
+        border-style: solid;
+        text-transform: uppercase;
+        margin-left: 10%;
+        font-size: 1.25rem;
+        font-weight: 700;
+        width: 70%;
+        letter-spacing: 2px;
+    }
+    body {
+        background: black !important;
+    }
+    #name-30a4, #email-cd2c {
+        width: 93%;
+    }
+    #sign-in-button {
+        margin-top: 30% !important;
+        text-align: center;
+        width: 93%;
+    }
+
+         }
+
+
+
+
