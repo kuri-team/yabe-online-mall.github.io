@@ -82,11 +82,11 @@
             <label for="purpose" class="title">Contact Purpose*</label>
             <select id="purpose" name="contact_purpose" class="field" required>
                 <option value="" selected>Select an option</option>
-                <option value="">Customer Order</option>
-                <option value="">Pricing</option>
-                <option value="">Refund or Returns</option>
-                <option value="">User Account</option>
-                <option value="">Other</option>
+                <option value="order">Customer Order</option>
+                <option value="price">Pricing</option>
+                <option value="refund_return">Refund or Returns</option>
+                <option value="account">User Account</option>
+                <option value="other">Other</option>
             </select>
 
             <div class="flex-container flex-justify-content-space-between flex-wrap">
@@ -108,7 +108,7 @@
                 placeholder="This field is required" required>
 
             <label for="phone_num" class="title">Phone*</label>
-            <input id="phone_num" type="text" name="phone_num" class="field"
+            <input id="phone_num" type="number" name="phone_num" class="field"
                 placeholder="This field is required" required>
 
             <p>Preferred Contact Method*</p>

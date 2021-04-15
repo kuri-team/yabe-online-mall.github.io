@@ -78,6 +78,25 @@
 }
 
 /* Responsive product info section */
+@media only screen and (min-width: 1500px) {
+    .product-info-other-media img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .product-info-other-media {
+        width: 10%;
+    }
+
+    .product-info-main-img, .product-info-main {
+        width: 45%;
+    }
+
+    .product-info-main-img {
+        margin-right: 40px;
+    }
+}
+
 @media only screen and (max-width: 1023px) {
     #product-info {
         -ms-flex-direction: column;

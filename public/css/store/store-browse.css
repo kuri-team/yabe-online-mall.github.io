@@ -2,16 +2,13 @@
     border: none;
     outline: none;
     background-color: transparent;
-    font-size: 15px;
+    font-size: 16px;
     font-family: inherit;
-    margin: 0 0 8px 10%;
+    margin: 0 10% 20px;
 }
 
-/* Responsive design
 @media only screen and (max-width: 767px) {
-    #browse-by-product {
-        margin: 0;
-        width: 100%;
+    .content-body select {
+        font-size: 18px;
     }
 }
-*/
