@@ -159,20 +159,7 @@
         display: block;
     }
 
-    #navbar-icon:checked ~ ul {
-        display: -moz-flex;
-        display: -ms-flex;
-        display: -o-flex;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-flex-flow: column;
-        flex-flow: column;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-
-    #nav-product-bttn:checked ~ ul {
+    #navbar-icon:checked ~ ul, #nav-product-bttn:checked ~ ul {
         display: -moz-flex;
         display: -ms-flex;
         display: -o-flex;
