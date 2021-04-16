@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../../media/image/favicon.ico" type="image/x-icon">
 
   <link rel="stylesheet" href="../../css/common.css">
   <link rel="stylesheet" href="../../css/cards.css">
   <link rel="stylesheet" href="../../css/store/store.css">
+  <link rel="stylesheet" href="../../css/store/store-home.css">
 
   <script src="https://kit.fontawesome.com/492245eeb1.js" crossorigin="anonymous"></script>
 
@@ -78,7 +80,6 @@
       <li><a href="#">HSY Shop</a></li>
     </ul>
 
-    <!--Remember to add link for href-->
     <div class="content-body">
       <section class="store-header">
         <img class="store-img" alt="image of a shop"
@@ -106,6 +107,28 @@
             </div>
           <div class="store-nav-bttn"><a href="./pages/contact.html">CONTACT</a></div>
           <div class="store-nav-bttn"><a href="./pages/bio.html">BIO</a></div>
+
+          <div id="responsive-store-navbar">
+            <input type="checkbox" id="navbar-icon">
+            <div class="flex-container flex-align-items-center flex-direction-column">
+              <label for="navbar-icon" class="responsive-store-navbar-title">MENU</label>
+              <i class="fas fa-caret-down"></i>
+            </div>
+            <ul class="responsive-store-navbar-content">
+              <li><a href="./index.html">Home</a></li>
+              <li>
+                <input type="checkbox" id="nav-product-bttn">
+                <label for="nav-product-bttn">Products</label>
+                <i class="fas fa-caret-down"></i>
+                <ul class="responsive-store-navbar-content-dropdown">
+                  <li><a href="./browse-product/by-category.html">Category</a></li>
+                  <li><a href="./browse-product/by-date.html">Date</a></li>
+                </ul>
+              </li>
+              <li><a href="./pages/contact.html">Contact</a></li>
+              <li><a href="./pages/bio.html">Bio</a></li>
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -116,40 +139,75 @@
             <a href="">SEE ALL</a>
           </div>
 
-          <div class="flex-container flex-justify-content-center flex-align-items-center flex-wrap">
-            <div class="product-card">
-              <a href="./product-detail"><img alt="image of a product"
-                src="../../media/image/placeholder_262x250.png"></a>
-              <div class="product-card-details">
-                <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
-                <a class="product-card-shop" href="#">Short Description Goes Here</a>
-                <p class="product-card-price">$16.95</p>
-                <div class="product-card-sale-card">1/4/2020</div>
+          <section class="store-product-cards">
+            <div class="flex-container flex-justify-content-space-between flex-align-items-center flex-wrap">
+              <div class="product-card">
+                <a href="./product-detail"><img alt="image of a product"
+                  src="../../media/image/placeholder_262x250.png"></a>
+                <div class="product-card-details">
+                  <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
+                  <p class="product-card-shop">Short Description Goes Here</p>
+                  <p class="product-card-price">$16.95</p>
+                  <div class="product-card-sale-card">1/4/2020</div>
+                </div>
               </div>
-            </div>
 
-            <div class="product-card">
-              <a href="./product-detail"><img alt="image of a product"
-                src="../../media/image/placeholder_262x250.png"></a>
-              <div class="product-card-details">
-                <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
-                <a class="product-card-shop" href="#">Short Description Goes Here</a>
-                <p class="product-card-price">$16.95</p>
-                <div class="product-card-sale-card">1/4/2020</div>
+              <div class="product-card">
+                <a href="./product-detail"><img alt="image of a product"
+                  src="../../media/image/placeholder_262x250.png"></a>
+                <div class="product-card-details">
+                  <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
+                  <p class="product-card-shop">Short Description Goes Here</p>
+                  <p class="product-card-price">$16.95</p>
+                  <div class="product-card-sale-card">1/4/2020</div>
+                </div>
               </div>
-            </div>
 
-            <div class="product-card">
-              <a href="./product-detail"><img alt="image of a product"
-                src="../../media/image/placeholder_262x250.png"></a>
-              <div class="product-card-details">
-                <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
-                <a class="product-card-shop" href="#">Short Description Goes Here</a>
-                <p class="product-card-price">$16.95</p>
-                <div class="product-card-sale-card">1/4/2020</div>
+              <div class="product-card">
+                <a href="./product-detail"><img alt="image of a product"
+                  src="../../media/image/placeholder_262x250.png"></a>
+                <div class="product-card-details">
+                  <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
+                  <p class="product-card-shop">Short Description Goes Here</p>
+                  <p class="product-card-price">$16.95</p>
+                  <div class="product-card-sale-card">1/4/2020</div>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <a href="./product-detail"><img alt="image of a product"
+                  src="../../media/image/placeholder_262x250.png"></a>
+                <div class="product-card-details">
+                  <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
+                  <p class="product-card-shop">Short Description Goes Here</p>
+                  <p class="product-card-price">$16.95</p>
+                  <div class="product-card-sale-card">1/4/2020</div>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <a href="./product-detail"><img alt="image of a product"
+                  src="../../media/image/placeholder_262x250.png"></a>
+                <div class="product-card-details">
+                  <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
+                  <p class="product-card-shop">Short Description Goes Here</p>
+                  <p class="product-card-price">$16.95</p>
+                  <div class="product-card-sale-card">1/4/2020</div>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <a href="./product-detail"><img alt="image of a product"
+                  src="../../media/image/placeholder_262x250.png"></a>
+                <div class="product-card-details">
+                  <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
+                  <p class="product-card-shop">Short Description Goes Here</p>
+                  <p class="product-card-price">$16.95</p>
+                  <div class="product-card-sale-card">1/4/2020</div>
+                </div>
               </div>
             </div>
-          </div>
+          </section>
         </section>
 
         <section class="store-home-content-featured mb-80">
@@ -158,73 +216,75 @@
             <a href="">SEE ALL</a>
           </div>
 
-          <div class="flex-container flex-justify-content-center flex-align-items-center flex-wrap">
-            <div class="product-card">
-              <a href="./product-detail"><img alt="image of a product"
-                src="../../media/image/placeholder_262x250.png"></a>
-              <div class="product-card-details">
-                <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
-                <a class="product-card-shop" href="#">Short Description Goes Here</a>
-                <p class="product-card-price">$16.95</p>
-                <div class="product-card-sale-card">1/4/2020</div>
+          <section class="store-product-cards">
+            <div class="flex-container flex-justify-content-space-between flex-align-items-center flex-wrap">
+              <div class="product-card">
+                <a href="./product-detail"><img alt="image of a product"
+                  src="../../media/image/placeholder_262x250.png"></a>
+                <div class="product-card-details">
+                  <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
+                  <p class="product-card-shop">Short Description Goes Here</p>
+                  <p class="product-card-price">$16.95</p>
+                  <div class="product-card-sale-card">1/4/2020</div>
+                </div>
               </div>
-            </div>
 
-            <div class="product-card">
-              <a href="./product-detail"><img alt="image of a product"
-                src="../../media/image/placeholder_262x250.png"></a>
-              <div class="product-card-details">
-                <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
-                <a class="product-card-shop" href="#">Short Description Goes Here</a>
-                <p class="product-card-price">$16.95</p>
-                <div class="product-card-sale-card">1/4/2020</div>
+              <div class="product-card">
+                <a href="./product-detail"><img alt="image of a product"
+                  src="../../media/image/placeholder_262x250.png"></a>
+                <div class="product-card-details">
+                  <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
+                  <p class="product-card-shop">Short Description Goes Here</p>
+                  <p class="product-card-price">$16.95</p>
+                  <div class="product-card-sale-card">1/4/2020</div>
+                </div>
               </div>
-            </div>
 
-            <div class="product-card">
-              <a href="./product-detail"><img alt="image of a product"
-                src="../../media/image/placeholder_262x250.png"></a>
-              <div class="product-card-details">
-                <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
-                <a class="product-card-shop" href="#">Short Description Goes Here</a>
-                <p class="product-card-price">$16.95</p>
-                <div class="product-card-sale-card">1/4/2020</div>
+              <div class="product-card">
+                <a href="./product-detail"><img alt="image of a product"
+                  src="../../media/image/placeholder_262x250.png"></a>
+                <div class="product-card-details">
+                  <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
+                  <p class="product-card-shop">Short Description Goes Here</p>
+                  <p class="product-card-price">$16.95</p>
+                  <div class="product-card-sale-card">1/4/2020</div>
+                </div>
               </div>
-            </div>
 
-            <div class="product-card">
-              <a href="./product-detail"><img alt="image of a product"
-                src="../../media/image/placeholder_262x250.png"></a>
-              <div class="product-card-details">
-                <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
-                <a class="product-card-shop" href="#">Short Description Goes Here</a>
-                <p class="product-card-price">$16.95</p>
-                <div class="product-card-sale-card">1/4/2020</div>
+              <div class="product-card">
+                <a href="./product-detail"><img alt="image of a product"
+                  src="../../media/image/placeholder_262x250.png"></a>
+                <div class="product-card-details">
+                  <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
+                  <p class="product-card-shop">Short Description Goes Here</p>
+                  <p class="product-card-price">$16.95</p>
+                  <div class="product-card-sale-card">1/4/2020</div>
+                </div>
               </div>
-            </div>
 
-            <div class="product-card">
-              <a href="./product-detail"><img alt="image of a product"
-                src="../../media/image/placeholder_262x250.png"></a>
-              <div class="product-card-details">
-                <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
-                <a class="product-card-shop" href="#">Short Description Goes Here</a>
-                <p class="product-card-price">$16.95</p>
-                <div class="product-card-sale-card">1/4/2020</div>
+              <div class="product-card">
+                <a href="./product-detail"><img alt="image of a product"
+                  src="../../media/image/placeholder_262x250.png"></a>
+                <div class="product-card-details">
+                  <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
+                  <p class="product-card-shop">Short Description Goes Here</p>
+                  <p class="product-card-price">$16.95</p>
+                  <div class="product-card-sale-card">1/4/2020</div>
+                </div>
               </div>
-            </div>
 
-            <div class="product-card">
-              <a href="./product-detail"><img alt="image of a product"
-                src="../../media/image/placeholder_262x250.png"></a>
-              <div class="product-card-details">
-                <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
-                <a class="product-card-shop" href="#">Short Description Goes Here</a>
-                <p class="product-card-price">$16.95</p>
-                <div class="product-card-sale-card">1/4/2020</div>
+              <div class="product-card">
+                <a href="./product-detail"><img alt="image of a product"
+                  src="../../media/image/placeholder_262x250.png"></a>
+                <div class="product-card-details">
+                  <a class="product-card-title" href="./product-detail">Product Title Goes Here</a>
+                  <p class="product-card-shop">Short Description Goes Here</p>
+                  <p class="product-card-price">$16.95</p>
+                  <div class="product-card-sale-card">1/4/2020</div>
+                </div>
               </div>
             </div>
-          </div>
+          </section>
         </section>
       </section>
 
@@ -236,6 +296,16 @@
         <div class="store-footer-bttn"><a href="../../mall/legal/copyright">Copyright</a></div>
         <div class="store-footer-bttn"><a href="../../mall/legal/tos">Term of Service</a></div>
         <div class="store-footer-bttn"><a href="../../mall/legal/privacy-policy">Privacy Policy</a></div>
+
+        <div id="responsive-store-footer">
+          <input type="checkbox" id="store-footer-icon">
+          <label for="store-footer-icon" class="responsive-store-footer-title" onclick="displayDropdown()">Legal</label>
+          <ul id="responsive-store-footer-dropdown">
+            <li><a href="../../mall/legal/copyright">Copyright</a></li>
+            <li><a href="../../mall/legal/tos">Term of Service</a></li>
+            <li><a href="../../mall/legal/privacy-policy">Privacy Policy</a></li>
+          </ul>
+        </div>
       </section>
     </div>
   </main>
@@ -290,5 +360,6 @@
   </footer>
 
   <script src="../../js/common.js"></script>
+  <script src="../../js/store/footer.js"></script>
 </body>
 </html>

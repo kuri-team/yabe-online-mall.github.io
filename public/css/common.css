@@ -713,6 +713,13 @@ footer {
     .content-body {
         width: 100%;
     }
+
+    footer .flex-container {
+        -webkit-flex-flow: column;
+        flex-flow: column;
+        -webkit-align-items: center;
+        align-items: center;
+    }
 }
 
 
