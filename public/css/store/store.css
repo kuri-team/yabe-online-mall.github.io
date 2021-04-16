@@ -272,6 +272,10 @@
     height: 50px;
 }
 /* Responsive store footer */
+#responsive-store-navbar label:hover, .responsive-store-navbar-content a:hover {
+    text-decoration: underline;
+}
+
 #store-footer-icon, #store-footer-icon + label, #responsive-store-footer ul {
     display: none;
 }
