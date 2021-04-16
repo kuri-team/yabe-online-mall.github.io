@@ -45,17 +45,9 @@
     margin-bottom: 15px;
     padding-left: 15px;
 }
-.u-form-horizontal .input-group {
-    width: auto;
-}
+/*hide the label of input forms*/
 .u-form-control-hidden {
     display: none !important;
-}
-.u-form-horizontal .u-btn-submit,
-.u-form-vertical .u-btn-submit {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    position: relative;
 }
 /* ********  end of spacing ******** */
 .u-form-horizontal .u-form-group.u-form-submit {
@@ -73,19 +65,11 @@
     padding: 20px 0 20px 0;
     border: none;
 }
-.u-form {
-    position: relative;
-    font-size: 1rem;
-    height: auto !important;
-}
-.u-form-group {
-    text-align: start;
-}
 .u-btn-submit {
     display: inline-block;
 }
-.u-form-vertical .u-form-submit {
-    margin-bottom: 0 !important;
+.u-section-1 .u-btn-2 {
+    margin: -110px 100px 30px 16% !important;
 }
 @media (max-width: 767px) {
     .u-form-horizontal {
@@ -416,7 +400,6 @@ a:hover {
     content: '';
     width: 100%;
     display: block;
-    position: absolute;
 }
 .u-block:not(:last-child).u-block-separator:after {
     border-bottom-style: solid;
@@ -443,7 +426,6 @@ a:hover {
     color: transparent;
 }
 .u-shape-svg .u-svg-link {
-    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -972,7 +954,7 @@ html { font-size: 16px; }
         margin-left: 63%;
     }
     .u-section-1 .u-text-1 {
-        margin: 1px 0px 0 400px;
+        margin: 1px 0 0 400px;
     }
     .u-section-1 .u-form-group-16 {
         width: 40%;
