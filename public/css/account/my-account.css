@@ -1,3 +1,4 @@
+
 .u-btn {
     /*display: inline-block; position of edit button*/
     display: table;
@@ -215,10 +216,6 @@ li.active > a.u-button-style.u-button-style.u-active-custom-color-7[class*="u-bo
     font-weight: 700;
     padding: 10px 25px;
 }
-.u-section-1 .u-tab-item-4 {
-    margin-bottom: 0;
-}
-
 .u-section-1 .u-tab-link-4 {
     font-size: 1.25rem;
     background-image: none;
@@ -253,7 +250,8 @@ li.active > a.u-button-style.u-button-style.u-active-custom-color-7[class*="u-bo
     text-transform: uppercase;
     font-size: 0.875rem;
     letter-spacing: 1px;
-    margin: 40px auto 0 507px;
+    margin: 40px auto 0 550px;
+    border: solid;
 }
 
 @media only screen and (max-width: 768px) {
@@ -268,4 +266,11 @@ li.active > a.u-button-style.u-button-style.u-active-custom-color-7[class*="u-bo
         width: 10px;
         margin-left: -450px;
     }
+    #carousel_56de {
+        overflow: hidden;
+    }
+    /*Hoverable Dropdown*/
+
+
+
 }
