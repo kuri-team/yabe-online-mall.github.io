@@ -166,7 +166,7 @@
     margin: auto auto auto 20px;
 }
 
-/* Responsive Card navigation elements */
+/* Responsive Cards & Navigation elements */
 @media only screen and (max-width: 767px) {
     .card-gallery-left-bttn, .card-gallery-right-bttn {
         display: none;
@@ -191,5 +191,19 @@
 
     .product-card-sale-card {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 1350px) {
+    .card-gallery-content .product-card, .card-gallery-content .store-card {
+        margin: 2% 10px;
+    }
+
+    .card-gallery-content .product-card:first-child, .card-gallery-content .store-card:first-child {
+        margin-left: 0;
+    }
+
+    .card-gallery-content .product-card:last-child, .card-gallery-content .store-card:last-child {
+        margin-right: 0;
     }
 }

@@ -13,8 +13,13 @@
 }
 
 .product-info-main-img img {
-    max-width: 100%;
-    height: 350px;
+    width: 100%;
+    height: auto;
+}
+
+.product-info-main {
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
 }
 
 .product-info-main p {
@@ -88,8 +93,14 @@
         width: 10%;
     }
 
-    .product-info-main-img, .product-info-main {
-        width: 45%;
+    .product-info-main-img {
+        width: auto;
+        -webkit-flex-shrink: 1;
+        flex-shrink: 1;
+    }
+
+    .product-info-main {
+        width: 50%;
     }
 
     .product-info-main-img {
