@@ -950,13 +950,34 @@ html { font-size: 16px; }
     padding: 0;
 }
 @media only screen and (max-width: 768px) {
-    #sign-up-container {
-        margin-left: -70% !important;
-    }
+    /*#sign-up-container {*/
+    /*    margin-left: -70% !important;*/
+    /*}*/
     #orange-contact-container {
         display: none;
     }
-    .u-section-1 .u-container-layout-1 {
-        padding: 110px 70px 20px 105px;
+    /*.u-section-1 .u-container-layout-1 {*/
+    /*    padding: 110px 70px 20px 105px;*/
+    /*}*/
+    /*#sign-up-container {*/
+    /*    display: none;*/
+    /*}*/
+    .u-layout-cell, .u-container-style.u-opacity, .u-group.u-opacity {
+        position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
+        left: -500px;
+    }
+    #main-register-container {
+        padding: 10px;
+        width: 270px;
+        margin-left: 63%;
+    }
+    .u-section-1 .u-text-1 {
+        margin: 1px 0px 0 400px;
+    }
+    .u-section-1 .u-form-group-16 {
+        width: 40%;
+    }
+    #select-d581, #select-f42d {
+        width: 104%;
     }
     }
