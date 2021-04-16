@@ -1,3 +1,15 @@
+/* General styling */
+#store-page-content {
+    width: 80%;
+    margin: 0 auto 80px;
+}
+
+.store-content-heading {
+    font-weight: normal;
+    padding: 20px 0 30px;
+}
+
+/* Contact form styling */
 #store-contact-form, #store-contact-info {
     width: 47%;
     min-height: 350px;
@@ -55,6 +67,7 @@
     cursor: pointer;
 }
 
+/* Contact info box styling */
 #store-contact-info {
     background-color: #ececec;
     padding: 20px;
@@ -75,4 +88,20 @@
 #store-contact-info p {
     padding-bottom: 30px;
     margin: 0;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 1080px) {
+    #store-contact-form, #store-contact-info {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #store-contact-form {
+        padding-top: 0;
+    }
+
+    #store-contact-info {
+        margin-top: 7%;
+    }
 }

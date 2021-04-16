@@ -120,7 +120,17 @@
     background: #cdcdcd;
 }
 
-.cards-left-bttn, .cards-right-bttn {
+.card-gallery {
+    display: -ms-grid;
+    display: -moz-grid;
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    grid-template-rows: auto auto;
+    align-content: center;
+    width: 100%;
+}
+
+.card-gallery-left-bttn, .card-gallery-right-bttn {
     display: block;
     background: #ccc5b9;
     border: none;
@@ -129,15 +139,50 @@
     padding: 0 7px;
 }
 
-.cards-left-bttn:active, .cards-right-bttn:active {
+.card-gallery-left-bttn:active, .card-gallery-right-bttn:active {
     background: #bab1a0;
     color: #fffcf2;
 }
 
-/* Responsive Card navigation elements */
+.card-gallery-title {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.card-gallery-left-bttn {
+    grid-column: 1;
+    grid-row: 2;
+    margin: auto 20px auto auto;
+}
+
+.card-gallery-content {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.card-gallery-right-bttn {
+    grid-column: 3;
+    grid-row: 2;
+    margin: auto auto auto 20px;
+}
+
+/* Responsive Cards & Navigation elements */
 @media only screen and (max-width: 767px) {
-    .cards-left-bttn, .cards-right-bttn {
+    .card-gallery-left-bttn, .card-gallery-right-bttn {
         display: none;
+    }
+
+    .card-gallery-title {
+        grid-column: 1 / span 3;
+    }
+
+    .card-gallery-content {
+        grid-column: 1 / span 3;
+        overflow: scroll;
+    }
+
+    .card-gallery-content .product-card, .card-gallery-content .product-card img {
+        width: 200px;
     }
 
     .product-card-title {
@@ -146,5 +191,19 @@
 
     .product-card-sale-card {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 1350px) {
+    .card-gallery-content .product-card, .card-gallery-content .store-card {
+        margin: 2% 10px;
+    }
+
+    .card-gallery-content .product-card:first-child, .card-gallery-content .store-card:first-child {
+        margin-left: 0;
+    }
+
+    .card-gallery-content .product-card:last-child, .card-gallery-content .store-card:last-child {
+        margin-right: 0;
     }
 }

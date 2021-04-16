@@ -28,38 +28,6 @@
     font-size: 11pt;
 }
 
-.mall-home-section-gallery {
-    display: -ms-grid;
-    display: -moz-grid;
-    display: grid;
-    grid-template-columns: 10% auto 10%;
-    grid-template-rows: auto auto;
-    align-content: center;
-    width: 100%;
-}
-
-.mall-home-section-gallery-title {
-    grid-column: 2;
-    grid-row: 1;
-}
-
-.mall-home-section-gallery-left-bttn {
-    grid-column: 1;
-    grid-row: 2;
-    margin: auto 20px auto auto;
-}
-
-.mall-home-section-gallery-content {
-    grid-column: 2;
-    grid-row: 2;
-}
-
-.mall-home-section-gallery-right-bttn {
-    grid-column: 3;
-    grid-row: 2;
-    margin: auto auto auto 20px;
-}
-
 
 /* Responsive Mall Home Cards */
 @media only screen and (max-width: 1370px) {
@@ -93,18 +61,6 @@
         text-align: -webkit-center;
         text-align: -moz-center;
         text-align: center;
-    }
-
-    .mall-home-section-gallery-title {
-        grid-column: 1 / span 3;
-    }
-
-    .mall-home-section-gallery-content {
-        grid-column: 1 / span 3;
-    }
-
-    .mall-home-section-gallery-content .product-card, .mall-home-section-gallery-content .product-card img {
-        width: 200px;
     }
 }
 
