@@ -77,12 +77,15 @@
         align-items: stretch;
         margin: -0.5rem !important;
     }
+
     .u-form-horizontal .u-form-group {
         border: 0.5rem solid transparent !important;
     }
+
     .u-form-horizontal label {
         display: none;
     }
+
     .u-form-horizontal .u-btn-submit {
         flex-grow: 1;
     }
@@ -932,18 +935,10 @@ html { font-size: 16px; }
     padding: 0;
 }
 @media only screen and (max-width: 768px) {
-    /*#sign-up-container {*/
-    /*    margin-left: -70% !important;*/
-    /*}*/
     #orange-contact-container {
         display: none;
     }
-    /*.u-section-1 .u-container-layout-1 {*/
-    /*    padding: 110px 70px 20px 105px;*/
-    /*}*/
-    /*#sign-up-container {*/
-    /*    display: none;*/
-    /*}*/
+
     .u-layout-cell, .u-container-style.u-opacity, .u-group.u-opacity {
         position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
         left: -500px;
@@ -971,5 +966,21 @@ and (max-height: 1366px)
 and (-webkit-min-device-pixel-ratio: 1.5) {
     #orange-contact-container {
         display: none;
+    }
+}
+
+/* Responsive upload img */
+.responsive-upload-img {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .upload-img {
+        display: none;
+    }
+
+    .responsive-upload-img {
+        display: block;
+        padding-left: 15px;
     }
 }
