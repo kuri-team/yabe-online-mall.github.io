@@ -3,6 +3,11 @@
     margin: 2% 0;
 }
 
+.product-card img {
+    width: 250px;
+    height: 250px;
+}
+
 .product-card a {
     color: #252422;
     text-decoration: none;
@@ -62,6 +67,8 @@
     margin: auto;
     padding: 0 20px;
     width: 143px;
+    height: 143px;
+    border-radius: 50%;
 }
 
 .store-card-name {
