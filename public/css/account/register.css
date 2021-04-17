@@ -854,9 +854,20 @@ html { font-size: 16px; }
     margin: -52px auto 0 15%;
 }
 
-.u-section-1 .u-btn-2:hover {
-    background-color: #fff1c0;
-    color: #000;
+/* Reset button on mobile */
+.responsive-reset-btn {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .original-reset-btn {
+        display: none;
+    }
+
+    .responsive-reset-btn {
+        display: block;
+        margin: 0 0 15px 15px;
+    }
 }
 
 /*contact container*/
