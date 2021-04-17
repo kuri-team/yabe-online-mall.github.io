@@ -2,7 +2,6 @@
 .u-btn {
     /*display: inline-block; position of edit button*/
     display: table;
-    /*TODO maye need another solution for negative marin*/
     cursor: pointer;
     color: inherit;
     font-size: inherit;

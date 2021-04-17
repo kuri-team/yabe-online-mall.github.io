@@ -2,7 +2,6 @@
 .u-btn {
     /*display: inline-block;*/
     display: table;
-    /*TODO maye need another solution for negative marin*/
     cursor: pointer;
     color: inherit;
     font-size: inherit;
@@ -99,13 +98,6 @@ footer > *,
 }
 base {
     display: none;
-}
-a {
-    color: #259bca;
-    text-decoration: none;
-}
-a:hover {
-    color: #0676a4;
 }
 .u-sheet-left {
     left: calc((100% - 1140px) / 2);
@@ -722,16 +714,6 @@ blockquote
     font-size: 0.75rem;
     letter-spacing: 1px;
     line-height: 1.4;
-}
-ul:not(.u-unstyled)
-{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-ol
-{
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 .u-post-content
 {
