@@ -64,6 +64,11 @@
     width: 80px;
     background-color: #fff;
 }
+
+.cart-product-remove-button:hover {
+    color: #fff;
+    background: #252422;
+}
 .cart-product-quantity-input {
     width: 14px;
     height: 14px;
@@ -121,6 +126,14 @@ input[type=number] {
     margin: 10px;
     text-decoration: none;
     border-color: #252422;
+}
+
+.cart-product-summary-button-continue:hover{
+    background: #B0441E;
+}
+
+.cart-product-summary-button-order:hover {
+    background: #bab1a0;
 }
 
 .cart-product-list {
