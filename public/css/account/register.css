@@ -71,6 +71,7 @@
 .u-section-1 .u-btn-2 {
     margin: -110px 100px 30px 16% !important;
 }
+
 @media (max-width: 767px) {
     .u-form-horizontal {
         flex-direction: column;
@@ -580,8 +581,8 @@ li.active > .u-button-style.u-active-none {
 .u-button-style.u-custom-color-1,
 .u-button-style.u-custom-color-1[class*="u-border-"]
 {
-    color: #111111 !important;
-    background-color: #fffcf2 !important;
+    color: #111111;
+    background-color: #fffcf2;
 }
 .u-custom-color-2,
 .u-body.u-custom-color-2,
@@ -618,8 +619,8 @@ a.u-button-style.u-button-style.u-active-custom-color-3[class*="u-border-"].acti
 li.active > a.u-button-style.u-button-style.u-active-custom-color-3,
 li.active > a.u-button-style.u-button-style.u-active-custom-color-3[class*="u-border-"]
 {
-    color: #ffffff !important;
-    background-color: #eb5e28 !important;
+    color: #ffffff;
+    background-color: #eb5e28;
 }
 /*signup orange color*/
 .u-text-custom-color-3,
@@ -841,7 +842,10 @@ html { font-size: 16px; }
     text-transform: uppercase;
     background-image: none;
     border-style: none;
+    background-color: #EB5E28;
+    color: #fff;
 }
+
 /*reset button*/
 .u-section-1 .u-btn-2 {
     border-style: none;
@@ -852,6 +856,23 @@ html { font-size: 16px; }
     background-image: none;
     margin: -52px auto 0 15%;
 }
+
+/* Reset button on mobile */
+.responsive-reset-btn {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .original-reset-btn {
+        display: none;
+    }
+
+    .responsive-reset-btn {
+        display: block;
+        margin: 0 0 15px 15px;
+    }
+}
+
 /*contact container*/
 .u-section-1 .u-list-1 {
     width: 485px;
@@ -934,6 +955,13 @@ html { font-size: 16px; }
 .u-section-1 .u-btn-5 {
     padding: 0;
 }
+
+@media only screen and (max-width: 1024px) {
+    #orange-contact-container {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     #orange-contact-container {
         display: none;
