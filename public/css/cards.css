@@ -90,6 +90,11 @@
         margin: 10px;
     }
 
+    .flex-wrap .product-card img {
+        width: 100%;
+        height: auto;
+    }
+
     .overflow-hidden .store-card:first-child, .overflow-hidden .product-card:first-child {
         margin-left: 0;
     }
