@@ -2,7 +2,6 @@
 .u-btn {
     /*display: inline-block;*/
     display: table;
-    /*TODO maye need another solution for negative marin*/
     cursor: pointer;
     color: inherit;
     font-size: inherit;
@@ -71,18 +70,22 @@
 .u-section-1 .u-btn-2 {
     margin: -110px 100px 30px 16% !important;
 }
+
 @media (max-width: 767px) {
     .u-form-horizontal {
         flex-direction: column;
         align-items: stretch;
         margin: -0.5rem !important;
     }
+
     .u-form-horizontal .u-form-group {
         border: 0.5rem solid transparent !important;
     }
+
     .u-form-horizontal label {
         display: none;
     }
+
     .u-form-horizontal .u-btn-submit {
         flex-grow: 1;
     }
@@ -95,13 +98,6 @@ footer > *,
 }
 base {
     display: none;
-}
-a {
-    color: #259bca;
-    text-decoration: none;
-}
-a:hover {
-    color: #0676a4;
 }
 .u-sheet-left {
     left: calc((100% - 1140px) / 2);
@@ -577,8 +573,8 @@ li.active > .u-button-style.u-active-none {
 .u-button-style.u-custom-color-1,
 .u-button-style.u-custom-color-1[class*="u-border-"]
 {
-    color: #111111 !important;
-    background-color: #fffcf2 !important;
+    color: #111111;
+    background-color: #fffcf2;
 }
 .u-custom-color-2,
 .u-body.u-custom-color-2,
@@ -615,8 +611,8 @@ a.u-button-style.u-button-style.u-active-custom-color-3[class*="u-border-"].acti
 li.active > a.u-button-style.u-button-style.u-active-custom-color-3,
 li.active > a.u-button-style.u-button-style.u-active-custom-color-3[class*="u-border-"]
 {
-    color: #ffffff !important;
-    background-color: #eb5e28 !important;
+    color: #ffffff;
+    background-color: #eb5e28;
 }
 /*signup orange color*/
 .u-text-custom-color-3,
@@ -718,16 +714,6 @@ blockquote
     font-size: 0.75rem;
     letter-spacing: 1px;
     line-height: 1.4;
-}
-ul:not(.u-unstyled)
-{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-ol
-{
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 .u-post-content
 {
@@ -838,7 +824,10 @@ html { font-size: 16px; }
     text-transform: uppercase;
     background-image: none;
     border-style: none;
+    background-color: #EB5E28;
+    color: #fff;
 }
+
 /*reset button*/
 .u-section-1 .u-btn-2 {
     border-style: none;
@@ -849,6 +838,23 @@ html { font-size: 16px; }
     background-image: none;
     margin: -52px auto 0 15%;
 }
+
+/* Reset button on mobile */
+.responsive-reset-btn {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .original-reset-btn {
+        display: none;
+    }
+
+    .responsive-reset-btn {
+        display: block;
+        margin: 0 0 15px 15px;
+    }
+}
+
 /*contact container*/
 .u-section-1 .u-list-1 {
     width: 485px;
@@ -931,19 +937,18 @@ html { font-size: 16px; }
 .u-section-1 .u-btn-5 {
     padding: 0;
 }
-@media only screen and (max-width: 768px) {
-    /*#sign-up-container {*/
-    /*    margin-left: -70% !important;*/
-    /*}*/
+
+@media only screen and (max-width: 1024px) {
     #orange-contact-container {
         display: none;
     }
-    /*.u-section-1 .u-container-layout-1 {*/
-    /*    padding: 110px 70px 20px 105px;*/
-    /*}*/
-    /*#sign-up-container {*/
-    /*    display: none;*/
-    /*}*/
+}
+
+@media only screen and (max-width: 768px) {
+    #orange-contact-container {
+        display: none;
+    }
+
     .u-layout-cell, .u-container-style.u-opacity, .u-group.u-opacity {
         position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
         left: -500px;
@@ -971,5 +976,21 @@ and (max-height: 1366px)
 and (-webkit-min-device-pixel-ratio: 1.5) {
     #orange-contact-container {
         display: none;
+    }
+}
+
+/* Responsive upload img */
+.responsive-upload-img {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .upload-img {
+        display: none;
+    }
+
+    .responsive-upload-img {
+        display: block;
+        padding-left: 15px;
     }
 }

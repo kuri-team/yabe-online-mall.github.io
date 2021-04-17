@@ -2,7 +2,6 @@
 .u-btn {
     /*display: inline-block; position of edit button*/
     display: table;
-    /*TODO maye need another solution for negative marin*/
     cursor: pointer;
     color: inherit;
     font-size: inherit;
@@ -245,13 +244,12 @@ li.active > a.u-button-style.u-button-style.u-active-custom-color-7[class*="u-bo
 }
 /*edit button position*/
 .u-section-1 .u-btn-1 {
-    border-style: solid;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 0.875rem;
     letter-spacing: 1px;
     margin: 40px auto 0 550px;
-    border: solid;
+    border-style: solid;
 }
 
 @media only screen and (max-width: 768px) {
@@ -263,7 +261,6 @@ li.active > a.u-button-style.u-button-style.u-active-custom-color-7[class*="u-bo
         margin-left: 10%;
     }
     #tab-0da5 {
-        width: 10px;
         margin-left: -450px;
     }
     #carousel_56de {
