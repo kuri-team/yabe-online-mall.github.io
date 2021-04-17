@@ -1,9 +1,9 @@
-#header-hero {
+.header-hero {
     width: 100%;
     height: auto;
 }
 
-#header-hero img {
+.header-hero img {
     width: inherit;
     height: inherit;
 }
